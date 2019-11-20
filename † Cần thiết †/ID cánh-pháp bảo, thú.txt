@@ -1,0 +1,116 @@
++ Item:
+3030: Canh mau xanh nhat
+3029: Canh mau hong
+3028: Canh trang
+3031: Canh mau vang nhat
+3032: Canh ma xanh la
+3033: Canh mau hong
+3034: Canh doi do
+3035: Canh doi xanh nc bjen dam
+3036: Canh doi den
+3037: Canh doi den xanh
+3038: Canh doi vang
+3039: Canh doi tim
+3027: Ho lo
+3026: Bao kiem nho~
+3025: Bao do~
+3024: pp xanh
+3023: Bao kiem hong
+3022: Bao kiem xanh
+3021: pp hong nu~
+3020: pp xanh nam
+3019: Banh kem
+3040: Banh xop
+3041: Banh xep
+3042: Banh kem 2
+3008: Hoa anh dao
+3009: Hoa cuc
+3010: Hoa sen
+0014: trung mau xanh bjen
+0013: Trung mau do
+0012: Trung mau tim
+0011: Trung mau xanh bjen nhat
+0010: Trung mau cam
+
++ Trang bi sau lung:
+Backtype 8: Canh doi
+Backtype 7: Canh thuong
+Backtype 1: phiphong
+Backtype 2: Bao kiem
+Backtype 4: PP xanh
+Backtype 3: bao nho
+Backtype 5: Ho lo
+Backtype 9: Quy hong
+Backtype 10: Duoi meo
+Backtype 11: Duoi cao
+Backtype 12: Duoi ho that no
+Backtype 13: Duoi trai tim
+Backtype 14: Duoi trai nho
+Backtype 15: Duoi ac quy
+Backtype 16: Duoi ngoi sao
+Backtype 17: Duoi 2 canh OR con tho
+Backtype 18: Duoi xuong OR con meo
+Backtype 19: Duoi ki lan  OR em be
+Backtype 20: Duoi phuong hoang OR em be
+Backtype 21: Duoi chong chong
+Backtype 22: Duoi chong chong to
+Backtype 23: Duoi chong chong xoay
+Backtype 24: Duoi tazan
+Backtype 25: Duoi robot
+Backtype 26: Duoi ran quan thit
+Backtype 27: Duoi tinh linh tho
+Backtype 28: Duoi chuon chuon
+Backtype 29: Duoi chuon chuon tim 
+Backtype 30: Duoi tom hum
+Backtype 31: Duoi tinh linh xanh
+Backtype 33: Phi phong bo hung 
+Backtype 32: Bia mo
+Backtype 34: Cap y te
+Backtype 35: Phi phong mat cuoi
+Backtype 36: Song dao cheo xanh la
+Backtype 37: Tia nang mat troi
+Backtype 38: Kiem ki si
+Backtype 39: Con nai con Nam
+Backtype 40: Con nai con Nu
+Backtype 41: UFO
+Backtype 43: Mat robot
+Backtype 44: Cu carot
+Backtype 60: Cay 
+Backtype 61: Con tho trang
+Backtype 62: Con tho hong
+Backtype 64: Cay keo
+
++ Fashion:
+Code 34: Ao khieu vu Do
+Code 35: Ao khieu vu XAnh
+Code 36: Ao bac si
+Code 37: Ao giang sinh do //Loi
+Code 38: Ao giang sinh xanh //Loi
+Code 39: Ao kungfu
+Code 40: Ao di dao //Loi
+Code 41: Ao truyen thong //Loi
+Code 42: Ao bo luc lac //Loi
+Code 43: Ao con huu //Loi
+Code 44: Ao con huu Nu //Loi
+Code 45: Ao con ... //Loi
+Code 50: Ao nguoj la ma
+
++ THu cuoi:
+101: Con huu
+102: Con cao
+103: Da dieu
+104: 
+
++ Hieu ung phap bao:
+5116: Sui bot nuoc (Quanh nguoj luon)
+51143: Vong tron bat quai xoay (Con luan)
+51144: Vong tron bat quai Xanh bjen
+51142: Linh hon than tien nu bay len
+41311: Lua xanh
+41312: Vong tron gai xanh nhat
+41313: Vong tron gai xanh dam
+41321: Lua tim
+41322: Vong tron than chu trang
+41342: Lua tim (To)
+9008: Quyen sach duoi chan
+

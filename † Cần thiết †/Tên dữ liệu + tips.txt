@@ -1,0 +1,12 @@
+﻿Sys/party/feizei: Trộm phi tặc
+Sys/party/gumu: Cổ mộ
+sys/sys/login0: Chỉnh thời gian sv, chỉnh đồ cho tân thủ lúc mới vào
+inh/user/equip: Chỉnh màu vũ khí
+sys/task/banditi: Hoàng kim thánh y
+Sys/task/escort: áp tiêu
+sys/task/master: sư môn
+sys/task/robber: sư gia
+sys/task/thief: VBD
+sys/user/energy: chỉnh điểm + cho danh hiệu 
+inh/user/equip: Chỉnh màu cho vũ khí
+sys/npc/energy: chỉnh x exp

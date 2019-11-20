@@ -1,0 +1,69 @@
+﻿std: Vật phẩm tiêu chuẩn
+01: Tân thủ    	
+04: Hoạt động hiện tại	
+08: Đạo cụ thường
+09: Tín vật môn phái
+30: Hoa      
+31: Trà/ tửu   
+32: Nông phẩm  
+33: Thực vật    
+34: Công cụ/Tế phẩm
+35: Dụng phẩm    
+36: Cầm     
+37: Kỳ/Ma tướng 
+38: Thư/ tín   
+39: Hoạ
+40,41,42: Vật phẩm rơi từ quái, nguyên liệu   
+44: Vật phẩm bảo thú
+49: Tạp loại   
+54: Thẻ biến thân  
+55: Mũ (Bộ)   
+56: Áo (Bộ)       
+57: Hạng liên (Bộ)      
+58: Yêu đới (Bộ)        
+59: Giày (Bộ)
+60: Áo Nam  
+61: Áo Nữ    
+65: Mũ Nam   
+66: Mũ Nữ    
+70: Vũ khí Đào Hoa Nguyên (Quyền)   
+71: vũ khí Đường môn (Ám khí)
+72: Vk Thục sơn (Đao)
+73: Kiếm (Tổng hợp)
+74: Vũ khí Cấm vệ quân (Thương)
+75: Vũ khí cấm vệ quân (Côn) 
+76: Thục sơn kiếm 
+77: Mao sơn kiếm  
+78: Côn lôn kiếm  
+79: Vân mộng kiếm
+80: Vật phẩm nhiệm vụ Tương Lệ     
+86: Trang sức   
+87: Yêu đới 
+88: Giày     
+89: Bảo thạch
+90: Thảo dược   
+91: Dược vật    
+93: Tinh thạch hợp thành (Ép đồ)       
+95: Bí kíp Nhập Môn 
+96: Bí Kíp  
+97: Tàng phẩm    
+98: Vật phẩm nhiệm vụ   
+99: Thương phẩm [Nv thương bang]
+100: Fashion 
+stuff: Đả tạo nguyên liệu 	      
+final: Thành phẩm	    
+product: Công thức
+bind: Vật phẩm đặc biệt
+sell: vật phẩm thương thành
+
+Tử kim, thanh đồng bảo hộp: D:\current\item\01
+Quả cầu hắc, lam, hồng, và lễ thành hôn: D:\current\item\04
+Thần thú, CQL D:\current\item\08
+Tín vật: D:\current\item\09
+Đồ linh tinh rớt ra từ quái: D:\current\item\40
+Thẻ biến hình: D:\current\item\54
+Tinh thạch nguyên liệu: D:\current\item\89
+Tinh thạch luyện ép độ: D:\current\item\93
+Bí kíp: D:\current\item\96
+Vệ đội trưởng vật phẩm: D:\current\item\97
+Vật phẩm nhiệm vụ: D:\current\item\98

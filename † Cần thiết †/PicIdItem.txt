@@ -1,0 +1,61 @@
+﻿3034 : Cánh dơi - đỏ đậm
+3039 : Cánh dơi - tím
+3038 : Cánh dơi - vàng
+3035 : Cánh dơi - xanh da trời
+3037 : Cánh dơi - xanh lá cây
+3029 : Cánh thiên thần - đỏ
+3033 : Cánh thiên thần - hồng
+3030 : Cánh thiên thần - xanh da trời nhạt
+3032 : Cánh thiên thần - xanh lá cây
+
+7106 : Túi Linh Thạch
+7107 : Túi Linh Thạch - tím
+7108 : Túi Lịnh Thạch - xanh
+9995 : Túi Quà Vô Song
+9993 : Túi Thần Thú
+3812 : Thẻ Giảm Giá
+3210 : Linh Thuỷ Đặc Biệt
+0401 : Ân Xá Phù
+4984 : Chiến Thú Lệnh
+4983 : Hổ ấn Bá Vương
+8900 : Ngọc Tử Kim
+3461 : Hạc thạch
+3553 : Hoả Phù
+3610 : Đàn tỳ bà
+3750 : Cờ tướng
+9812 : Hổ thạch
+9815 : Tẩy tuỷ kinh trung
+9809 : Tẩy tuỷ kinh cao
+9810 : Tẩy tuỷ kinh sơ
+9816 : Ấn
+0100 : đồng hành
+3855 : thư
+8    : thư 2
+97   : Ấn thạch đẹp
+4101 : tinh phách đồng hành
+3850 : tấm giấy nhỏ
+9933 : hổ thạch xanh lá cây
+9591 : thạch tròn xanh
+3289 : bồ đề quả
+4109 : thạch thô màu tím
+7114 : kim bảo khoá
+7206 : kiếm đường rồng 
+
+3101 : Túi đỏ
+3103 : Túi xám
+3104 : Túi vàng
+3105 : Túi vàng nhạt
+3106 : Túi xanh đậm
+3221 : Túi nhỏ
+4981 : túi quà đỏ
+3321 : giấy gói quà
+3301 : quà chưa gói
+
+4184 : đạn to
+4186 : đạn nhỏ
+
+4114 : Ngọc hệ Kim
+4115 : Ngọc hệ Mộc
+4118 : Ngọc hệ Thổ
+4116 : Ngọc hệ Thuỷ
+4117 : Ngọc hệ Hoả

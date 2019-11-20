@@ -1,0 +1,13 @@
+sys/npc/npc.c
+
+if ( who->get_level()<=40 ) ben = 6;
+		else if ( who->get_level()<=60 ) ben = 3;
+		else ben = 2;
+
+(Code x2 , fix o day)
+
+
+mixTime[TIME_WDAY] == 0 (Chu nhat)
+1 la thu 2
+2 la thu 3
+...

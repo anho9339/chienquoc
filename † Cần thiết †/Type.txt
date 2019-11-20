@@ -1,0 +1,6 @@
+WAIST_TYPE // That lung
+ARMOR_TYPE //Giap
+HEAD_TYPE //Non
+WEAPON_FILE //Vu khi
+NECK_TYPE //Day chuyen
+BOOTS_TYPE//giay

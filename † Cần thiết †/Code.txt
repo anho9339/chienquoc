@@ -1,0 +1,3 @@
+﻿Add knb:
+"sys/sys/test_db"->add_yuanbao(who,2);	
+who->add_save("yuanbao",1);

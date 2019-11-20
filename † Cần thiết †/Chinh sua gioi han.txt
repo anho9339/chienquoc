@@ -1,0 +1,5 @@
+Drop exp: sys/npc/energy
+Gioi han sao: cmd/std/mix3
+Gioi han cap: inh/user/prop
+Bao De Phu: 0034 (Y Tuong: Tao them bao de phu de bien doan thach dac biet so cap thanh cao cap)
+Chinh mau vu khi: inh / user / equip.c

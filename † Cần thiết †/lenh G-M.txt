@@ -1,0 +1,75 @@
+* Đồ và cơ bản:
+/clone (Đường dẫn)
+/family (số thứ tự phái) (Cấp phái)
+/gmdrop [Tùy sv mà rơi đồ và tiền]
+/yellow (ID đồ) [Chuyển đồ sang hoàng kim]
+/blue (Id đồ) [Chuyển đồ sang lam kim]
+/dest (ID đồ) [Xóa 1 món đồ nào đó]
+/gift2 (số thể lực,.... theo thứ tự trên xuống dưới) [+ điểm nhanh]
+/setnpc (ID của NPC) [Chỉnh chỉ số cho NPC]
+
+* Hoạt động:
+/party - Mở tắt hoạt động
+/kickall - Kick tất cả
+/kickout (ID) - Kick người chỉ định 
+/saveall - Save lại trc khi reload
+/shutup - Khóa kênh cho quản lí viên
+/channel - Khóa chat GM
+
+* Nói:
+/shout (Lời cần nói) - hét
+/thongbao (lời cần nói) - thông báo
+/sys (Lời nói) - Kênh GM
+
+* Check:
+/finger (ID) - Các nick có cùng ID đang online
+/checkorg [Check bang]
+/who xem số ngừi online
+/snoop (ID) nghe chuyển động
+/skills (ID) xem skill
+/op (ID bang) - check bang
+/hp (ID) check điểm
+/inv (ID) Xem đồ trên người và đã đeo
+/findgm - Cài đặt thưởng cho Gm
+/user.info (ID) - Xem số người onl và số GM onl 
+/where (ID) - Check đang ở đâu
+/set (ID) - xem hoàn cảnh
+/npc - Check NPC
+/gmlist - Check GM 
+/sc2 - Check nh~ thứ đã làm 
+/sc - Check điểm số
+/show - nh~ người gần mình trong 1 khu vực
+
+* Chiến đấu:
+/gmset 
+1: bất tử
+2: Tàng hình
+3: Xóa đồ
+4: x2 máu
+5: bình thường
+6: Hồi phục
+/setdie - Tự sát
+/recover - hồi đầy máu
+/smash (ID) - Giết người chỉ định
+/halt (ID) - cấm chiến đấu
+/bian - Biến hình 
+/slave - Thăng cấp thú gọi
+/possess (ID) - Biến thành người đó (Chỉ số và skill giống y chang người mình biến thành)
+/energy - Chọn tăng năng lượng
+
+* Triệu hồi và di chuyển:
+/summon (ID) - Ngừi đó đến cạnh
+/goto (ID) - Đến bên cạnh ngừi đó
+/go2map [Đi tới các map chính] hoặc /go2map (Số thứ tự map) [Tới map chỉ định, xem số map trong map/map/... , ví dụ: 001 là TTT, 0805 là vô danh bản đồ,....]
+
+* Nghịch:
+/clone-test [Tạo nick ảo]
+/clone-armor [tạo đồ ảo]
+
+* Thử nghiệm....:
+/givegift - chỉnh số tặng (đang nghiên cứu)
+/gmfight - chuyển đến nơi chỉ có GM (đang nghiên cứu)
+
+* Set quản lí:
+/manager (ID) bổ nhiệm quản lí kênh
+/promote (ID) Bổ nhiệm chức vụ GM

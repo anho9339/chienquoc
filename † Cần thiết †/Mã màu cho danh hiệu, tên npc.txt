@@ -1,0 +1,25 @@
+﻿HIY: Màu vàng
+HIR: Màu đỏ
+HIC: Xanh nước biển nhạt
+HIG: Xanh lá cây 
+HIW: Trắng
+HIB: Màu xanh biển đậm
+HIM: Tím trắng
+
+CRE: Tím đậm
+CRA: Xanh lá cây đậm
+CRD: Cam
+CRF: Màu xanh biển vừa
+
+PPM: Tím
+
+BLK: Màu đen
+RED: Đỏ đen
+GRN: Xanh đen
+YEL: Vàng đen
+BLU: Xanh biển đen
+MAG: Tím đen
+CYN: Xanh lá đen (Màu rêu)
+WHT: Bạc
+
+

@@ -1,0 +1,144 @@
+﻿0x00EBCE87 // Vàng nhạt
+0x004763FF // Xanh Dương nhạt, đẹp
+0x00C0C0C0 // Đỏ Cam
+0x00DCF8FF // Hồng nhạt
+0x00D7EBFA // Hồng trắng
+0x00FFFF00 // Vàng đậm
+0x00D4FF7F // trắng bạch kim
+0x00FFFFF0 // trắng vàng
+0x00DCF5F5 // trắng nâu
+0x00C4E4FF // trắng tím
+0x00000000 // đen xám
+0x00CDEBFF // trắng hồng nhạt
+0x00FF0000 // đen xám
+0x00E22B8A // xanh lá cây
+0x002A2AA5 // xanh lá cây đậm
+0x0087B8DE // Hồng Đậm
+0x00A09E5F // Xanh trắng, đẹp
+0x0000FF7F // trắng đậm có ít màu bạc
+0x001E69D2 // màu tím
+0x00507FFF // trắng + xanh dương nhạt
+0x00ED9564 // xanh lá cây + màu vàng
+0x00DCF8FF // Hồng đậm
+0x003C14DC // Xanh dương nhạt
+0x00FFFF00 // Vàng đậm óng ánh
+0x008B0000 // màu đen thui
+0x008B8B00 // Vàng cam
+0x000B86B8 // trắng vs xanh dương nhạt
+0x00A9A9A9 // đỏ nhạt
+0x00006400 // xanh lá cây vs 1 chút vàng bên ngoài
+0x006BB7BD // bạch kim vs 1 ít xanh dương
+0x008B008B // xanh dương đậm
+0x002F6B55 // màu trắng vs màu tím
+0x00008CFF // trắng xanh dương
+0x00CC3299 // xanh dương vừa k đậm k nhạt
+0x0000008B // xanh dương đậm
+0x007A96E9 // xanh dương vs màu vàng
+0x008BBC8F // trắng nâu
+0x008B3D48 // xanh lá cây nhạt
+0x004F4F2F // xanh lá trắng, đẹp
+0x00D1CE00 // vàng hoàng kim
+0x00D30094 // xanh dương đậm
+0x009314FF // xanh dương nhạt có máu óng
+0x00FFBF00 // vàng hoàng kim
+0x00696969 // tím lá cà
+0x00FF901E // tím sáng, đẹp
+0x002222B2 // xanh dương
+0x00F0FAFF // hồng phấn
+0x00228B22 // lá rơi mùa thu
+0x00FF00FF // xanh dương đậm
+0x00DCDCDC // hồng nhạt vs màu trắng
+0x00FFF8F8 // hồng đậm
+0x0000D7FF // trắng vs xanh dương nhạt
+0x0020A5DA // trắng vs xanh dương nhạt
+0x00808080 // đỏ gấc
+0x00008000 // đỏ gấc
+0x002FFFAD // vàng trắng óng
+0x00F0FFF0 // vàng trắng óng
+0x00B469FF // tím óng
+0x005C5CCD // xanh lá cây vs màu trắng
+0x0082004B // xanh dương đậm
+0x00F0FFFF // trắng óng
+0x008CE6F0 // màu trắng vs màu vàng óng
+0x00FAE6E6 // vàng đậm
+0x00F5F0FF // hồng đậm
+0x0000FC7C // hồng phấn
+0x00CDFAFF // hồng trắng
+0x00E6D8AD // Hồng đậm
+0x008080F0 // Tím nhạt
+0x00FFFFE0 // Vàng đậm
+0x00D2FAFA // hồng trắng
+0x0090EE90 // Vàng sắt
+0x00D3D3D3 // hồng đào
+0x00C1B6FF // xanh bọt biển
+0x007AA0FF // Hồng đậm
+0x00AAB220 // Cam đậm
+0x00FACE87 // Vàng hoàng kim có r
+0x00998877 // Tím đậm
+0x00DEC4B0 // màu trắng vs màu hơi giống da người
+0x00E0FFFF // Trắng sáng
+0x0000FF00 // Vàng 9999
+0x0032CD32 // màu trắng vs màu hơi giống da người
+0x00E6F0FA // Hồng Đậm
+0x00FF00FF // Xanh dương đậm
+0x00000080 // Xanh lá cây vs màu đen
+0x00AACD66 // Vàng tươi đẹp
+0x00CD0000 // Xám vs màu trắng nhẹ
+0x00D355BA // Xanh dương vs màu trắng đẹp
+0x00DB7093 // Màu tím ánh màu hồng
+0x0071B33C // Hồng trắng có r`
+0x00EE687B // Tím đậm vs thêm 1 tí màu hồng có r`
+0x009AFA00 // màu cam đậm( Lá mùa thu)
+0x00CCD148 // Màu hồng nhạt đẹp
+0x008515C7 //  Xanh lá cây đậm
+0x00701919 // Xanh dương đậm
+0x00FAFFF5 // Vàng nhạt óng ánh trắng
+0x00E1E4FF // Tím nhạt trắng óng ánh
+0x00B5E4FF // Tím và màu trắng đẹp
+0x00ADDEFF // Trắng óng ánh
+0x00800000 // Dark
+0x00E6F5FD // Tím nhạt trắng óng ánh
+0x00008080 // Đỏ Cam
+0x00238E6B // Xanh Lá vàng óng ánh đẹp
+0x0000A5FF // Xanh dương trắng óng ánh đẹp
+0x000045FF // Xanh biển
+0x330c // Xanh Dương nhạt đẹp
+0x00D670DA // Tím đậm và nhạt đẹp
+0x00AAE8EE // Hồng đậm
+0x0098FB98 // Trắng hồng
+0x00EEEEAF // Vàng kim óng ánh đẹp
+0x009370DB // Tím đậm vs thêm 1 tí màu hồng có r`
+0x00D5EFFF // Bạch Kim Đẹp
+0x00B9DAFF // Hồng nhạt vs màu trắng đẹp
+0x003F85CD // Xanh lá cây vs màu trắng
+0x00CBC0FF // Hồng đậm
+0x00DDA0DD // Hồng đậm
+0x00E6E0B0 // Hồng đậm
+0x00800080 // Green and dark
+0x000000FF // Xanh biển đậm
+0x008F8FBC // trắng vs xanh dương nhạt
+0x00E16941 // không biết là máu j
+0x0013458B // Xanh lá cây óng ánh
+0x007280FA // Tím đậm vs thêm 1 tí màu hồng có r
+0x0060A4F4 // trắng xoá
+0x00578B2E // màu tím hơi đậm vs màu trắng
+0x00EEF5FF // màu tím nhạt vs màu trắng
+0x002D52A0 // xanh lá cây lạ...
+0x00C0C0C0 // màu đỏ vs màu cam
+0x00EBCE87 // vàng hoàng kim
+0x00CD5A6A // xám dark
+0x00908070 // tím vs màu hồng
+0x00FAFAFF // màu hồng vs ít màu trắng
+0x007FFF00 // vàng hoàng kim
+0x00B48246 // màu nâu óng ánh
+0x008CB4D2 // trắng vs tím nhạt
+0x00808000 // Đỏ đậm
+0x00D8BFD8 // Xanh lá cây nhạt vs màu trắng
+0x004763FF // xanh dương vs màu trắng đẹp
+0x00D0E040 // Cam đậm
+0x00EE82EE // trắng tím nhạt
+0x00B3DEF5 // trắng vs 1 ít vàng
+0x00FFFFFF // trắng óng ánh
+0x00F5F5F5 // hok biết màu j....
+0x0000FFFF // trắng sáng
+0x0032CD9A // trắng vs màu tím mờ
