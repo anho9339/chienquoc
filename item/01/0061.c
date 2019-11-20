@@ -6,7 +6,7 @@ inherit ARMOR;
 // 函数：构造处理
 void create()
 {
-        set_name("冰魄战甲");
+        set_name("Băng Phách Chiến Giáp");
         set_picid_1(6142);
         set_picid_2(6142);
         set_unit("件");
@@ -28,5 +28,5 @@ void create()
 // 函数：获取描述
 string get_desc()
 {
-        return "冰魄战甲";
+        return "Băng Phách Chiến Giáp";
 }
