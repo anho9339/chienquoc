@@ -6,7 +6,7 @@ inherit HEAD;
 // 函数：构造处理
 void create()
 {
-        set_name("麟甲战盔");
+        set_name("Lân Giáp Chiến Khôi");
         set_picid_1(6542);
         set_picid_2(6542);
         set_unit("顶");
@@ -27,5 +27,5 @@ void create()
 // 函数：获取描述
 string get_desc()
 {
-        return "麟甲战盔";
+        return "Lân Giáp Chiến Khôi";
 }
