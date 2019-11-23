@@ -7,7 +7,7 @@ inherit LEGEND_ITEM;
 // 函数：构造处理
 void create()
 {
-        set_name("神仙爷爷的木剑");
+        set_name("Mộc Kiếm Gia Gia");
         set_picid_1(7300);
         set_picid_2(7300);
         set_unit("把");
@@ -29,5 +29,5 @@ int get_equip_type() { return 0; }
 // 函数：获取描述
 string get_desc()
 {
-        return "任务道具。武器店老板要求交给神仙爷爷的任务物品。";
+        return "Nhiệm vụ đạo cụ.Chủ tiệm vũ khí lão yêu cầu giao cho thần tiên gia gia vật phẩm này。";
 }

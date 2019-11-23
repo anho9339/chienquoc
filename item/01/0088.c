@@ -4,7 +4,7 @@ inherit BOOTS;
 // 函数：构造处理
 void create()
 {
-        set_name("金丝履");
+        set_name("Kim Ti Hài");
         set_picid_1(8812);
         set_picid_2(8812);
         set_unit("双");
@@ -22,5 +22,5 @@ void create()
 // 函数：获取描述
 string get_desc()
 {
-        return "金丝履";
+        return "Kim Ti Hài";
 }

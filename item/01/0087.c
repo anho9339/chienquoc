@@ -4,7 +4,7 @@ inherit WAIST;
 // 函数：构造处理
 void create()
 {
-        set_name("金丝腰带");
+        set_name("Kim Ti Yêu Đới");
         set_picid_1(8713);
         set_picid_2(8713);
         set_unit("条");
@@ -21,5 +21,5 @@ void create()
 // 函数：获取描述
 string get_desc()
 {
-        return "金丝腰带";
+        return "Kim Ti Yêu Đới";
 }

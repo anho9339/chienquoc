@@ -6,7 +6,7 @@ inherit HEAD;
 // 函数：构造处理
 void create()
 {
-        set_name("布帽");
+        set_name("Bố Mão");
         set_picid_1(6600);
         set_picid_2(6600);
         set_unit("顶");
@@ -29,5 +29,5 @@ void create()
 // 函数：获取描述
 string get_desc()
 {
-        return "布帽";
+        return "Bố Mão";
 }

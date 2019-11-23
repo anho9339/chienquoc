@@ -6,7 +6,7 @@ inherit ARMOR;
 // 函数：构造处理
 void create()
 {
-        set_name("男装布衣");
+        set_name("Nam Trang Bố Y");
         set_picid_1(6000);
         set_picid_2(6000);
         set_unit("件");
@@ -27,5 +27,5 @@ void create()
 // 函数：获取描述
 string get_desc()
 {
-        return "一种适合男孩穿戴的初学者防具。";
+        return "一Trang bị thích hợp cho các nam nhi tân thủ。";
 }

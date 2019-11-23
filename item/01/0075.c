@@ -6,7 +6,7 @@ inherit WEAPON;
 // 函数：构造处理
 void create()
 {
-        set_name("绝杀");
+        set_name("Tuyệt Sát");
         set_picid_1(7522);
         set_picid_2(7522);
         set_unit("根");
@@ -28,5 +28,5 @@ int get_weapon_level() { return 22; }
 // 函数：获取描述
 string get_desc()
 {
-        return "“棍法”装备";
+        return "“Côn Pháp”Trang bị";
 }

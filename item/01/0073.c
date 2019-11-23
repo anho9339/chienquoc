@@ -6,7 +6,7 @@ inherit WEAPON;
 // 函数：构造处理
 void create()
 {
-        set_name("青冥剑");
+        set_name("Thanh Minh Kiếm");
         set_picid_1(7322);
         set_picid_2(7322);
         set_unit("柄");
@@ -28,5 +28,5 @@ int get_weapon_level() { return 22; }
 // 函数：获取描述
 string get_desc()
 {
-        return "“剑法”装备";
+        return "“Kiếm Pháp”Trang bị";
 }
