@@ -148,24 +148,24 @@ int get_use_effect_callout( object who,object gift)
 	if ( item )
 	{
 	//	CHAT_D->sys_channel(0,sprintf(HIR"恭喜%s在宝藏大搜寻活动中获得奖品%s",who->get_name(),item->get_name()));
-		send_user(who,"%c%s",'!',"Chúc mừng, ngài mở túi nhận được "+item->get_name());
+		send_user(who,"%c%s",'!',"Chúc mừng, bạn mở túi nhận được "+item->get_name());
 		p = item->move2(who);
 		item->add_to_user(p);	
 	}
 	else if (  cash )
 	{
 		who->add_cash(cash);
-		send_user(who,"%c%s",'!',sprintf("Chúc mừng, ngài mở túi nhận được %d ngân lượng",cash));
+		send_user(who,"%c%s",'!',sprintf("Chúc mừng, bạn mở túi nhận được %d ngân lượng",cash));
 	}
 	else if (  exp )
 	{
 		who->add_exp(exp);
-		send_user(who,"%c%s",'!',sprintf("Chúc mừng, ngài mở túi nhận được %d kinh nghiệm",exp));
+		send_user(who,"%c%s",'!',sprintf("Chúc mừng, bạn mở túi nhận được %d kinh nghiệm",exp));
 	}
 	else if (  pot )
 	{
 		who->add_potential(pot);
-		send_user(who,"%c%s",'!',sprintf("Chúc mừng, ngài mở túi nhận được %d tiềm năng",pot));
+		send_user(who,"%c%s",'!',sprintf("Chúc mừng, bạn mở túi nhận được %d tiềm năng",pot));
 	}
 	return 0;
 }

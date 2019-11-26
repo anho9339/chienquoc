@@ -3,7 +3,7 @@ inherit ITEM;
 // 函数：构造处理
 void create()
 {
-        set_name("中秋节大礼包");
+        set_name("Túi Quà Trung Thu Lớn");
         set_picid_1(4981);
         set_picid_2(4981);
         set_value(1);
@@ -76,14 +76,14 @@ int get_use_effect_callout( object who,object gift)
 	destruct(gift);
 	if ( item )
 	{
-		send_user(who,"%c%s",'!',"恭喜您！您打开中秋大礼包得到了"+item->get_name());
+		send_user(who,"%c%s",'!',"Chúc mừng!Bạn mở Túi quà Trung Thu lớn đạt được"+item->get_name());
 		p = item->move2(who);
 		item->add_to_user(p);	
 	}
 	else if (  cash )
 	{
 		who->add_cash(cash);
-		send_user(who,"%c%s",'!',sprintf("恭喜您！您打开中秋大礼包得到了%d金",cash));
+		send_user(who,"%c%s",'!',sprintf("Chúc mừng!Bạn mở Túi quà Trung Thu lớn đạt được%dvàng",cash));
 	}
 	return 0;
 }

@@ -8,7 +8,7 @@ int get_item_number() {return 1 ;}
 // 函数：构造处理
 void create()
 {
-        set_name("大礼包");
+        set_name("Đại Lễ Bao");
         set_picid_1(4981);
         set_picid_2(4981);
         set_value(1);
@@ -18,7 +18,7 @@ int is_usable() {return 1;}
 // 函数：获取描述
 string get_desc() 
 { 
-        return "装有礼品的包裹。"; 
+        return "Chứa quà tặng lễ bao。"; 
 }
 
 int get_use_effect( object me ) 
@@ -97,7 +97,7 @@ int get_use_effect_callout( object who,object gift)
 	destruct(gift);
 	if ( item )
 	{
-		send_user(who,"%c%s",'!',"恭喜您！您打开大礼包得到了"+item->get_name());
+		send_user(who,"%c%s",'!',"Chúc mừng!Bạn mở gói quà Đại Lễ Bao đạt được"+item->get_name());
 		p = item->move2(who);
 		item->add_to_user(p);	
 	}
@@ -106,7 +106,7 @@ int get_use_effect_callout( object who,object gift)
 		who->add_cash(cash);
 		who->add_gold_log("item0405", cash);
 		"/sys/sys/count"->add_income("item0405", cash);
-		send_user(who,"%c%s",'!',"恭喜您！您打开大礼包得到了10000金");
+		send_user(who,"%c%s",'!',"Chúc mừng!Bạn mở gói quà Đại Lễ Bao đạt được 10000 vàng");
 	}
 	return 0;
 }

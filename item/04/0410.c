@@ -8,7 +8,7 @@ int * magic = ({ 4176, 3292, 2571, 37201, 2618, 23131, 2416, 24161, 22152, 23141
 // 函数：构造处理
 void create()
 {
-        set_name("乱世英雄大礼包");
+        set_name("Loạn Thế Anh Hùng Đại Lễ Bao");
         set_picid_1(4981);
         set_picid_2(4981);
         set_value(1);
@@ -18,7 +18,7 @@ int is_usable() {return 1;}
 // 函数：获取描述
 string get_desc() 
 { 
-        return "装有礼品的包裹。"; 
+        return "Chứa quà tặng lễ bao。"; 
 }
 
 int get_use_effect( object me ) 
@@ -33,12 +33,12 @@ int get_use_effect_callout( object who,object gift)
 	string result;
         if( USER_INVENTORY_D->get_free_count(who) < 3 )
         {
-                send_user(who,"%c%s",'!', "您需要三个物品空间。" );
+                send_user(who,"%c%s",'!', "Bạn cần phải để trống ba ô túi hành trang。" );
                 return ;
         }	
 	gift->remove_from_user();
 	destruct(gift);
-	result = sprintf(HIR"%s打开乱世英雄礼包，得到", who->get_name());
+	result = sprintf(HIR"%sBạn mở Loạn Thế Anh Hùng Đại Lễ Bao, đạt được", who->get_name());
 	for (i = 0;i<2;i++)
 	{
 		item = 0;
@@ -82,14 +82,14 @@ int get_use_effect_callout( object who,object gift)
 				result = result + item->get_name();
 			else
 				result = result + "、"+ item->get_name();
-			write_user( who, ECHO "您获得"+item->get_name()+"。" );	
+			write_user( who, ECHO "Bạn nhận được"+item->get_name()+"。" );	
 			p = item->move2(who);
 			item->add_to_user(p);			
 		}	
 		if ( item2 )
 		{	
 			result = result + "、"+ item2->get_name();
-			write_user( who, ECHO "您获得"+item2->get_name()+"。" );	
+			write_user( who, ECHO "Bạn nhận được"+item2->get_name()+"。" );	
 			p = item2->move2(who);
 			item2->add_to_user(p);			
 		}			

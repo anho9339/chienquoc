@@ -3,7 +3,7 @@ inherit ITEM;
 // 函数：构造处理
 void create()
 {
-        set_name("神秘的种子");
+        set_name("Hạt Giống Thần Bí");
         set_picid_1(3234);
         set_picid_2(3234);
         set_unit("只");
@@ -16,5 +16,5 @@ void create()
 // 函数：获取描述
 string get_desc() 
 { 
-        return "散发出淡淡的清香，似乎可以吃。";
+        return "Nó toát ra một mùi thơm mờ nhạt và dường như có thể ăn được。";
 }

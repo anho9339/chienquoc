@@ -3,7 +3,7 @@ inherit ITEM;
 // 函数：构造处理
 void create()
 {
-        set_name("变身卡");
+        set_name("Thẻ Biến Hình");
         set_picid_1(3810);
         set_picid_2(3810);
         set_value(1);
@@ -13,7 +13,7 @@ int is_usable() {return 1;}
 // 函数：获取描述
 string get_desc() 
 { 
-        return "使用后能改变外型，持续时间两小时。"; 
+        return "Sử dụng có thể thay đổi hình dạng trong 2 giờ。"; 
 }
 
 int get_use_effect( object me ) 

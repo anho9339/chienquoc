@@ -9,7 +9,7 @@ int * pet = ({ 1616, 1619, 1624, 1625, 1632, 1634, });
 // 函数：构造处理
 void create()
 {
-        set_name("全家礼包");
+        set_name("Gói Quà Gia Đình");
         set_picid_1(4981);
         set_picid_2(4981);
         set_value(1);
@@ -19,7 +19,7 @@ int is_usable() {return 1;}
 // 函数：获取描述
 string get_desc() 
 { 
-        return "装有礼品的包裹。"; 
+        return "Chứa quà tặng lễ bao。"; 
 }
 
 int get_use_effect( object me ) 
@@ -34,22 +34,22 @@ int get_use_effect_callout( object who,object gift)
 	string result;
 	if (who->get_level()<10)
         {
-                send_user(who,"%c%s",'!', "您的等级不足10级。" );
+                send_user(who,"%c%s",'!', "Bạn chưa đủ cấp độ 10。" );
                 return ;
         }	
         if( USER_INVENTORY_D->get_free_count(who) < 9 )
         {
-                send_user(who,"%c%s",'!', "您需要九个物品空间。" );
+                send_user(who,"%c%s",'!', "Bạn cần phải để trống chín ô túi hành trang。" );
                 return ;
         }	
 	gift->remove_from_user();
 	destruct(gift);
-	result = sprintf(HIR "%s打开乱世英雄礼包，得到", who->get_name());
+	result = sprintf(HIR "%sBạn mở Gói Quà Gia Đình, đạt được", who->get_name());
 	item = new (sprintf("/item/final/16/%d", pet[random(sizeof(pet))]));
 	if ( item )
 	{	
 		result = result + item->get_name();
-		write_user( who, ECHO "您获得"+item->get_name()+"。" );	
+		write_user( who, ECHO "Bạn nhận được"+item->get_name()+"。" );	
 		p = item->move2(who);
 		item->add_to_user(p);			
 	}	
@@ -58,7 +58,7 @@ int get_use_effect_callout( object who,object gift)
 	{	
 		result += "、";
 		result = result + item->get_name();
-		write_user( who, ECHO "您获得"+item->get_name()+"。" );	
+		write_user( who, ECHO "Bạn nhận được"+item->get_name()+"。" );	
 		p = item->move2(who);
 		item->add_to_user(p);			
 	}	
@@ -67,7 +67,7 @@ int get_use_effect_callout( object who,object gift)
 	{	
 		result += "、";
 		result = result + item->get_name();
-		write_user( who, ECHO "您获得"+item->get_name()+"。" );	
+		write_user( who, ECHO "Bạn nhận được"+item->get_name()+"。" );	
 		p = item->move2(who);
 		item->add_to_user(p);			
 	}	
@@ -76,7 +76,7 @@ int get_use_effect_callout( object who,object gift)
 	{	
 		result += "、";
 		result = result + item->get_name();
-		write_user( who, ECHO "您获得"+item->get_name()+"。" );	
+		write_user( who, ECHO "Bạn nhận được"+item->get_name()+"。" );	
 		p = item->move2(who);
 		item->add_to_user(p);			
 	}
@@ -88,7 +88,7 @@ int get_use_effect_callout( object who,object gift)
 			result += "、";
 			item->set_amount(5);
 			result = result + item->get_name();
-			write_user( who, ECHO "您获得"+item->get_name()+"。" );	
+			write_user( who, ECHO "Bạn nhận được"+item->get_name()+"。" );	
 			p = item->move2(who);
 			item->add_to_user(p);			
 		}		
@@ -101,7 +101,7 @@ int get_use_effect_callout( object who,object gift)
 			result += "、";
 			item->set_amount(5);
 			result = result + item->get_name();
-			write_user( who, ECHO "您获得"+item->get_name()+"。" );	
+			write_user( who, ECHO "Bạn nhận được"+item->get_name()+"。" );	
 			p = item->move2(who);
 			item->add_to_user(p);			
 		}		
@@ -114,7 +114,7 @@ int get_use_effect_callout( object who,object gift)
 			result += "、";
 			item->set_amount(5);
 			result = result + item->get_name();
-			write_user( who, ECHO "您获得"+item->get_name()+"。" );	
+			write_user( who, ECHO "Bạn nhận được"+item->get_name()+"。" );	
 			p = item->move2(who);
 			item->add_to_user(p);			
 		}		
@@ -127,7 +127,7 @@ int get_use_effect_callout( object who,object gift)
 			result += "、";
 			item->set_amount(3);
 			result = result + item->get_name();
-			write_user( who, ECHO "您获得"+item->get_name()+"。" );	
+			write_user( who, ECHO "Bạn nhận được"+item->get_name()+"。" );	
 			p = item->move2(who);
 			item->add_to_user(p);			
 		}		
@@ -139,7 +139,7 @@ int get_use_effect_callout( object who,object gift)
 		{	
 			result += "、";
 			result = result + item->get_name();
-			write_user( who, ECHO "您获得"+item->get_name()+"。" );	
+			write_user( who, ECHO "Bạn nhận được"+item->get_name()+"。" );	
 			p = item->move2(who);
 			item->add_to_user(p);			
 		}		

@@ -11,7 +11,7 @@ int is_worldcup() { return 1; }
 // 函数：构造处理
 void create()
 {
-        set_name("红白色球队牌");
+        set_name("Thẻ Bài Hoa Cầu");
         set_picid_1(3568);
         set_picid_2(3568);
         set_unit("只");
@@ -22,7 +22,7 @@ void create()
 // 函数：获取描述
 string get_desc() 
 { 
-        return "关注世界杯，可以用来参加比赛竞猜投票的一种临时道具。价值：10。\n临时增加法术攻击力8%，效果持续60分钟。"; 
+        return "World Cup đã tới，hãy dùng thẻ để tham gia dự đoán kết quả。Giá trị：10。\nSử dụng tăng 8% Nội Công，trong 60 phút。"; 
 }
 
 int get_use_effect(object who) { return __FILE__->get_use_effect_callout(who,this_object()); }
