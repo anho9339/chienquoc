@@ -8,7 +8,7 @@ int iFinish = 0;	//活动是否结束
 // 函数：构造处理
 void create()
 {
-        set_name( "小恶魔宠物" );
+        set_name( "Tiểu Ác Ma" );
         set_picid_1(8114);
         set_picid_2(8114);
         set_value(50);
@@ -21,7 +21,7 @@ int get_item_color() { return 1; }
 // 函数：获取描述
 string get_desc() 
 { 
-        return "鼠标右键点击它，可召唤出一只可爱的小恶魔宠物。";
+        return "Nhấp chuột phải vào nó để triệu tập thú cưng quỷ nhỏ dễ thương。";
 }
 
 // 函数：使用效果

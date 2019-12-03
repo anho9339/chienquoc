@@ -6,7 +6,7 @@ int get_item_color() { return 1; }
 // 函数：构造处理
 void create()
 {
-        set_name("茱萸");
+        set_name("Thù Du");
         set_picid_1(3289);
         set_picid_2(3289);
         set_amount(1);
@@ -25,5 +25,5 @@ void reset()
 // 函数：获取描述
 string get_desc() 
 { 
-        return "重阳四宝之一"; 
+        return "Một trong bốn báu vật của Trọng Dương"; 
 }

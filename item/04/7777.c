@@ -22,5 +22,5 @@ void create()
 // 函数：获取描述
 string get_desc() 
 { 
-        return "好好保存此物，来日必有重用！\n不仅可换取丰富实物大奖，\n还有机会得到游戏中的极品装备！"; 
+        return "Hãy lưu giữ lại, nó sẽ được sử dụng trong tương lai！\nBạn ko chỉ có thể nhận được phần thưởng lớn，\n Mà còn có cơ hội đạt được trang bị cực phẩm!"; 
 }

@@ -8,7 +8,7 @@ int is_brand() { return 1; }
 // 函数：构造处理
 void create()
 {
-        set_name( "七夕白玫瑰" );
+        set_name( "Hoa Hồng Trắng Thất Tịch" );
         set_picid_1(0051);
         set_picid_2(0051);
         set_value(0);
@@ -20,5 +20,5 @@ void create()
 // 函数：获取描述
 string get_desc() 
 { 
-        return "缘分信物，据说找到持有相同信物的异性，然后组队找到月老，\n按照月老的指引完成任务就有意想不到的惊喜。"; 
+        return "Duyên phận tín vật, nghe nói khi 2 người khác giới có tín vật này hãy mau lập tổ đội tìm tới Nguyệt lão，\nHoàn thành nv của Lão có thể nhận quà bất ngờ。"; 
 }

@@ -6,7 +6,7 @@ int get_item_color() { return 1; }
 // 函数：构造处理
 void create()
 {
-        set_name("装着坏大熊的神奇葫芦");
+        set_name("Hồ Lô Chiêu Hùng");
         set_picid_1(4271);
         set_picid_2(4271);
 	set_amount(1);
@@ -16,5 +16,5 @@ void create()
 // 函数：获取描述
 string get_desc() 
 { 
-        return "神奇的葫芦，\n里面装着妄图偷抢西瓜的坏大熊，\n将它交给西瓜伯伯教训吧。"; 
+        return "Hồ Lô Thần Kỳ，\nChứa đựng những con gấu ăn cắp dưa hấu，\nHãy Giao nó cho chủ tiệm dưa。"; 
 }

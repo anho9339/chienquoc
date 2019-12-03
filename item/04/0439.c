@@ -7,7 +7,7 @@ inherit ITEM;
 // 函数：构造处理
 void create()
 {
-        set_name("极限穿越证明书");
+        set_name("Giấy Chứng Nhận Vượt Giới Hạn");
         set_picid_1(9807);
         set_picid_2(9807);
         set_value(50);
@@ -20,7 +20,7 @@ void create()
 // 函数：获取描述
 string get_desc() 
 {
-	return "任务物品。请尽快交与东海岛东北方的极限穿越审查官。";    	
+	return "Nhiệm vụ vật phẩm. Xin mau sớm đi Đông Hải đảo phía đông bắc giao cho thẩm tra quan。";   	
 }
 
 //// 函数：使用效果

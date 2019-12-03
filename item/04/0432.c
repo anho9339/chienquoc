@@ -11,7 +11,7 @@ int confirm_sell_item() { return 1; }
 // 函数：构造处理
 void create()
 {
-        set_name("正太巧克力");
+        set_name("Sô Cô La Cương Trực");
         set_picid_1(0055);
         set_picid_2(0055);
         set_unit("块");
@@ -21,7 +21,7 @@ void create()
 // 函数：获取描述
 string get_desc() 
 { 
-        return ("寓意：深不可测\n使用后法术攻击增加30%，持续60分钟\n"HIR"使用者需为男性");
+        return ("Ngụ ý: Thâm sâu khó lường\nSử dụng gia tăng nội công 30%, trong 60 phút\n"HIR"Người sử dụng cần là nam tính");
 }
 
 // 函数：使用效果
@@ -32,11 +32,11 @@ int get_use_effect_callout( object me , object item )
 {
 	if(me->get_gender()!=1)
 	{
-		send_user(me,"%c%s",';',"对不起，您不能使用该道具。");
+		send_user(me,"%c%s",';',"Thật xin lỗi, bạn không thể sử dụng nên đạo cụ。");
 		return 0;
 	}
 	send_user( me, "%c%w%w%c", 0x81, 0430, 3600, EFFECT_GOOD );
-	write_user(me,ECHO"您得到"+item->get_user_id()+"的真情祝福，法术攻击增加30％。");
+	write_user(me,ECHO"Bạn nhận được"+item->get_user_id()+"chân tình chúc phúc, nội công gia tăng 30%。");
         set_effect(me, EFFECT_USER_CP, 3600);
 	me->set_save( "cp10#", 30 );
         USER_ENERGY_D->count_cp(me);
@@ -51,5 +51,5 @@ void effect_done(object me)
 // 函数：获取描述(持续)
 string get_loop_desc( object me )
 {
-        return "一小时内增加法术攻击力30％。\n";
+        return "Tăng thêm nội công 30% trong 1 giờ。\n";
 }

@@ -11,7 +11,7 @@ int get_item_color() {return 1 ;}
 // 函数：构造处理
 void create()
 {
-        set_name("帮派虚宝包");
+        set_name("Bang Phái Hư Bảo Bao");
         set_picid_1(4981);
         set_picid_2(4981);
         set_value(1);
@@ -21,7 +21,7 @@ int is_usable() {return 1;}
 // 函数：获取描述
 string get_desc() 
 { 
-        return "装有礼品的包裹。"; 
+        return "Chứa gói quà tặng。"; 
 }
 
 int get_use_effect( object me ) 
@@ -37,18 +37,18 @@ int get_use_effect_callout( object who,object gift)
         
         if( USER_INVENTORY_D->get_free_count(who) < 8 )
         {
-                send_user(who,"%c%s",'!', "您需要八个物品空间。" );
+                send_user(who,"%c%s",'!', "Bạn cần để trống tám ô túi hành trang。" );
                 return ;
         }	
 	gift->remove_from_user();
 	destruct(gift);
-	result = sprintf(HIR"%s打开帮派虚宝包，得到", who->get_name());
+	result = sprintf(HIR"%sMở Bang Phái Hư Bảo Bao, nhận được", who->get_name());
 	item = new ("/item/sell/0026");
 	if ( item )
 	{	
 		item->set_amount(2);
 		result = result + item->get_name();
-		write_user( who, ECHO "您获得两枚"+item->get_name()+"。" );	
+		write_user( who, ECHO "Bạn thu hoạch được 2 cái"+item->get_name()+"。" );	
 		p = item->move2(who);
 		item->add_to_user(p);			
 	}	
@@ -58,7 +58,7 @@ int get_use_effect_callout( object who,object gift)
 		item->set_amount(2);
 		result += "、";
 		result = result + item->get_name();
-		write_user( who, ECHO "您获得两个"+item->get_name()+"。" );	
+		write_user( who, ECHO "Bạn thu hoạch được 2 cái"+item->get_name()+"。" );	
 		p = item->move2(who);
 		item->add_to_user(p);			
 	}	
@@ -68,7 +68,7 @@ int get_use_effect_callout( object who,object gift)
 		item->set_amount(10);
 		result += "、";
 		result = result + item->get_name();
-		write_user( who, ECHO "您获得10个"+item->get_name()+"。" );	
+		write_user( who, ECHO "Bạn thu hoạch được 10 cái"+item->get_name()+"。" );	
 		p = item->move2(who);
 		item->add_to_user(p);			
 	}	
@@ -77,7 +77,7 @@ int get_use_effect_callout( object who,object gift)
 	{	
 		result += "、";
 		result = result + item->get_name();
-		write_user( who, ECHO "您获得"+item->get_name()+"。" );	
+		write_user( who, ECHO "Bạn nhận được"+item->get_name()+"。" );	
 		p = item->move2(who);
 		item->add_to_user(p);			
 	}
@@ -86,7 +86,7 @@ int get_use_effect_callout( object who,object gift)
 	{	
 		result += "、";
 		result = result + item->get_name();
-		write_user( who, ECHO "您获得"+item->get_name()+"。" );	
+		write_user( who, ECHO "Bạn nhận được"+item->get_name()+"。" );	
 		p = item->move2(who);
 		item->add_to_user(p);			
 	}	
@@ -96,7 +96,7 @@ int get_use_effect_callout( object who,object gift)
 		item->set_level(4);
 		result += "、";
 		result = result + item->get_name();
-		write_user( who, ECHO "您获得"+item->get_name()+"。" );	
+		write_user( who, ECHO "Bạn nhận được"+item->get_name()+"。" );	
 		p = item->move2(who);
 		item->add_to_user(p);			
 	}	
@@ -106,7 +106,7 @@ int get_use_effect_callout( object who,object gift)
 		item->set_level(4);
 		result += "、";
 		result = result + item->get_name();
-		write_user( who, ECHO "您获得"+item->get_name()+"。" );	
+		write_user( who, ECHO "Bạn nhận được"+item->get_name()+"。" );	
 		p = item->move2(who);
 		item->add_to_user(p);			
 	}	
@@ -115,7 +115,7 @@ int get_use_effect_callout( object who,object gift)
 	{	
 		result += "、";
 		result = result + item->get_name();
-		write_user( who, ECHO "您获得"+item->get_name()+"。" );	
+		write_user( who, ECHO "Bạn nhận được"+item->get_name()+"。" );	
 		p = item->move2(who);
 		item->add_to_user(p);			
 	}	

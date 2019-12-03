@@ -9,7 +9,7 @@ int get_max_combined() { return 30; }
 // 函数：构造处理
 void create()
 {
-        set_name("蓼叶");
+        set_name("Liễu Thảo");
         set_picid_1(3250);
         set_picid_2(3250);
         set_value(50);
@@ -19,7 +19,7 @@ void create()
 // 函数：获取描述
 string get_desc() 
 { 
-        return "包粽子用的蓼叶"; 
+        return "Một loại lá cây dùng để gói bánh"; 
 }
 
 void reset()

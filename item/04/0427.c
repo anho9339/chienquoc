@@ -11,7 +11,7 @@ int confirm_sell_item() { return 1; }
 // 函数：构造处理
 void create()
 {
-        set_name("怡情蓝玫瑰");
+        set_name("Bông Hồng Xanh Biếc");
         set_picid_1(0050);
         set_picid_2(0050);
         set_unit("枝");
@@ -21,7 +21,7 @@ void create()
 // 函数：获取描述
 string get_desc() 
 { 
-        return ("花语：敦厚善良\n使用后物理防御增加30%，持续60分钟\n"HIR"使用者需为女性");
+        return ("Hoa nói：Đôn hậu và thiện lương\nSử dụng gia tăng ngoại kháng 30%,trong 60 phút\n"HIR"Người sử dụng cần là nữ tính");
 }
 
 // 函数：使用效果
@@ -32,10 +32,10 @@ int get_use_effect_callout( object me , object item )
 {
 	if(me->get_gender()==1)
 	{
-		send_user(me,"%c%s",';',"对不起，您不能使用该道具。");
+		send_user(me,"%c%s",';',"Thật xin lỗi, bạn không thể sử dụng nên đạo cụ。");
 		return 0;
 	}
-	write_user(me,ECHO"您得到"+item->get_user_id()+"的真情祝福，物理防御增加30％。");
+	write_user(me,ECHO"Bạn nhận được"+item->get_user_id()+"chân tình chúc phúc,phòng ngự ngoại kháng gia tăng 30%。");
 	send_user( me, "%c%w%w%c", 0x81, 0426, 3600, EFFECT_GOOD );
 	me->set_save("03291#", me->get_dp()*30/100);
         set_effect(me, EFFECT_USER_DP, 3600);
@@ -51,5 +51,5 @@ void effect_done(object me)
 // 函数：获取描述(持续)
 string get_loop_desc( object me )
 {
-        return "一小时内增加物理防御力30％。\n";
+        return "Tăng thêm ngoại kháng 30% trong một giờ。\n";
 }

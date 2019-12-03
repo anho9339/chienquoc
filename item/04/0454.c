@@ -10,7 +10,7 @@ int get_talisman_type() { return 1; }
 // 函数：构造处理
 void create()
 {
-        set_name("淬月之环");
+        set_name("Ngâm Nguyệt Chi Hoàn");
         set_picid_1(1016);//未确定。
         set_picid_2(1016);
         set_unit("个");
@@ -25,7 +25,7 @@ void create()
 // 函数：获取描述
 string get_desc() 
 {
-	return HIB"满月之环，月之精华满盈其中，流溢其外。\n"HIY"攻击：+2%\n"HIY"法术攻击：+2%";
+	return HIB"Mặt Trăng tròn sáng，tinh hoa được lấp đầy,lan tỏa ra ngoài。\n"HIY"Ngoại Công: +2%\n"HIY"Nội Công：+2%";
 }
 void start_loop_perform(object me)
 {

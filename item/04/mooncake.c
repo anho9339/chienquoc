@@ -10,7 +10,7 @@ int get_recover_count() { return 10; }
 // 函数：构造处理
 void create()
 {
-        set_name("月饼");
+        set_name("Bánh Trung Thu");
         set_picid_1(3570);
         set_picid_2(3570);
         set_unit("个");
@@ -33,7 +33,7 @@ void reset()
 // 函数：获取描述
 string get_desc() 
 {
-	return "中秋节传统食物，20秒内恢复400点气血值和400点法力值。";    	
+	return "Trung thu thực phẩm truyền thống, phục hồi 400 điểm máu và 400 mana trong 20 giây";    	
 }
 
 // 函数：使用效果

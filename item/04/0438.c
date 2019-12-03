@@ -9,7 +9,7 @@ int get_max_combined() { return 200; }
 // 函数：构造处理
 void create()
 {
-        set_name("战国劳动奖章");
+        set_name("Huân Chương Lao Động Chiến Quốc");
         set_picid_1(3859);
         set_picid_2(3859);
         set_value(50);
@@ -19,5 +19,5 @@ void create()
 // 函数：获取描述
 string get_desc() 
 {
-	return "可累积后换取奖励与称号的物品，请保存好不要丢失。";    	
+	return " Có thể đổi được các phần thưởng vật phẩm và danh hiệu sau khi tích lũy, vui lòng giữ lại đừng để mất。";    	
 }

@@ -14,7 +14,7 @@ int get_gender() { return 2; }
 // 函数：构造处理
 void create()
 {
-        set_name( "情比金坚戒" );
+        set_name( "Nhẫn Tình Chức Nữ" );
         set_picid_1(0908);
         set_picid_2(0908);
         set_unit( "个" );
@@ -36,7 +36,7 @@ void create()
 // 函数：获取描述
 string get_desc() 
 { 
-        return sprintf("增加人物属性\n"HIC"牛郎织女赠送的戒指，拥有神奇的力量\n装备要求："HIR"女性\n"HIB"七夕活动纪念");
+        return sprintf("Gia tăng thuộc tính\n"HIC"Ngưu Lang Chức Nữ đưa tặng chiếc nhẫn,bạn đạt được sức mạnh thần kỳ\nTrang bị yêu cầu："HIR"Nữ tính\n"HIB"Event Thất Tịch");
 }
 
 

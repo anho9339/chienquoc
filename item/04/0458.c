@@ -6,7 +6,7 @@ int get_item_color() { return 1; }
 // 函数：构造处理
 void create()
 {
-        set_name("西瓜伯伯的西瓜");
+        set_name("Dưa Hấu Bá Bá");
         set_picid_1(3280);
         set_picid_2(3280);
         set_amount(1);
@@ -25,5 +25,5 @@ void reset()
 // 函数：获取描述
 string get_desc() 
 { 
-        return "又香又甜的大西瓜，\n不过可不准吃哦，\n这是西瓜伯伯辛苦种植的。"; 
+        return "Dưa hấu ngọt và to，\nNhưng bạn không được phép ăn nó，\n Vì đây là dưa hấu bá bá vất vả trồng。"; 
 }

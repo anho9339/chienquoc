@@ -9,7 +9,7 @@ int get_max_combined() { return 30; }
 // 函数：构造处理
 void create()
 {
-        set_name("切好的猪肉");
+        set_name("Thịt Lợn Băm Nhỏ");
         set_picid_1(4218);
         set_picid_2(4218);
         set_value(50);
@@ -19,7 +19,7 @@ void create()
 // 函数：获取描述
 string get_desc() 
 { 
-        return "切好的，制作粽子用的猪肉"; 
+        return "Thịt lợn băm nhỏ để làm nhân bánh bao"; 
 }
 
 void reset()

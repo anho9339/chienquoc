@@ -13,7 +13,7 @@ int is_usable() {return 1;}
 // 函数：构造处理
 void create()
 {
-        set_name("新年红包");
+        set_name("Tân Niên Hồng Bao");
         set_picid_1(9985);
         set_picid_2(9985);
         set_value(10);
@@ -23,7 +23,7 @@ void create()
 // 函数：获取描述
 string get_desc() 
 { 
-        return "新年到了！恭喜发财，红包拿来！\n红包很大，打开时请注意预留道具栏空格。"; 
+        return "Năm mới đến! Chúc mừng phát tài, hồng bao lấy ra！\nHồng bao rất lớn, lúc mở ra hãy chú ý để trống túi hành trang。"; 
 }
 
 int get_use_effect( object me ) 
@@ -36,14 +36,14 @@ int get_use_effect_callout( object who,object gift)
 	int rate,p,cash,i=0;
 	object item;
 	string result,file;
-	result = sprintf(HIR"恭喜%s打开红包，获得", who->get_name());
+	result = sprintf(HIR"Chúc Mừng%smở hồng bao,nhận được", who->get_name());
 	rate = random(10000);
 	if ( who->get_level()>=30)
 	{
 		if (rate<10000)
 		{
 			who->add_cash(1000);
-			write_user( who, ECHO "您获得1000金钱。" );	
+			write_user( who, ECHO "Bạn nhận được 1000 lượng。" );	
 		}	
 		if (rate<2000)
 		{
@@ -51,7 +51,7 @@ int get_use_effect_callout( object who,object gift)
                         if( USER_INVENTORY_D->can_carry_3(who, item)  >=1 )
 			{	
 				item->set_amount(30);
-				write_user( who, ECHO "您获得"+item->get_name()+"30个。" );	
+				write_user( who, ECHO "Bạn nhận được"+item->get_name()+"30个。" );	
 				p = item->move2(who);
 				item->add_to_user(p);			
 			}		
@@ -63,7 +63,7 @@ int get_use_effect_callout( object who,object gift)
 			item = new (sprintf("/item/54/%04d",change54[random(sizeof(change54))]));
                         if( USER_INVENTORY_D->can_carry_3(who, item)  >=1 )
 			{	
-				write_user( who, ECHO "您获得"+item->get_name()+"。" );	
+				write_user( who, ECHO "Bạn nhận được"+item->get_name()+"。" );	
 				p = item->move2(who);
 				item->add_to_user(p);			
 			}		
@@ -73,7 +73,7 @@ int get_use_effect_callout( object who,object gift)
 		if (rate<500)
 		{
 			who->add_cash(10000);
-			write_user( who, ECHO "您获得10000金钱。" );	
+			write_user( who, ECHO "Bạn nhận được 10000 lượng。" );	
 		}	
 		if (rate<100)
 		{
@@ -82,7 +82,7 @@ int get_use_effect_callout( object who,object gift)
 			{	
 				result = result + item->get_name();
 				i=i+1;
-				write_user( who, ECHO "您获得"+item->get_name()+"。" );	
+				write_user( who, ECHO "Bạn nhận được"+item->get_name()+"。" );	
 				p = item->move2(who);
 				item->add_to_user(p);			
 			}		
@@ -99,7 +99,7 @@ int get_use_effect_callout( object who,object gift)
 				result += "、";
 				result = result + item->get_name();
 				i=i+1;
-				write_user( who, ECHO "您获得"+item->get_name()+"。" );	
+				write_user( who, ECHO "Bạn nhận được"+item->get_name()+"。" );	
 				p = item->move2(who);
 				item->add_to_user(p);			
 			}		
@@ -114,7 +114,7 @@ int get_use_effect_callout( object who,object gift)
 				result += "、";
 				result = result + item->get_name();
 				i=i+1;
-				write_user( who, ECHO "您获得"+item->get_name()+"。" );	
+				write_user( who, ECHO "Bạn nhận được"+item->get_name()+"。" );	
 				p = item->move2(who);
 				item->add_to_user(p);			
 			}		
@@ -129,7 +129,7 @@ int get_use_effect_callout( object who,object gift)
 				result += "、";
 				result = result + item->get_name();
 				i=i+1;
-				write_user( who, ECHO "您获得"+item->get_name()+"。" );	
+				write_user( who, ECHO "Bạn nhận được"+item->get_name()+"。" );	
 				p = item->move2(who);
 				item->add_to_user(p);			
 			}		
@@ -144,7 +144,7 @@ int get_use_effect_callout( object who,object gift)
 				result += "、";
 				result = result + item->get_name();
 				i=i+1;
-				write_user( who, ECHO "您获得"+item->get_name()+"。" );	
+				write_user( who, ECHO "Bạn nhận được"+item->get_name()+"。" );	
 				p = item->move2(who);
 				item->add_to_user(p);			
 			}		
@@ -161,7 +161,7 @@ int get_use_effect_callout( object who,object gift)
 				result += "、";
 				result = result + item->get_name();
 				i=i+1;
-				write_user( who, ECHO "您获得"+item->get_name()+"。" );	
+				write_user( who, ECHO "Bạn nhận được"+item->get_name()+"。" );	
 				p = item->move2(who);
 				item->add_to_user(p);			
 			}		
@@ -176,7 +176,7 @@ int get_use_effect_callout( object who,object gift)
 				result += "、";
 				result = result + item->get_name();
 				i=i+1;
-				write_user( who, ECHO "您获得"+item->get_name()+"。" );	
+				write_user( who, ECHO "Bạn nhận được"+item->get_name()+"。" );	
 				p = item->move2(who);
 				item->add_to_user(p);			
 			}		
@@ -187,9 +187,9 @@ int get_use_effect_callout( object who,object gift)
 		{
 			who->add_cash(100000);
 			result += "、";
-			result = result + "100000金钱";
+			result = result + "100000 lượng";
 			i=i+1;
-			write_user( who, ECHO "您获得100000金钱。" );	
+			write_user( who, ECHO "Bạn nhận được 100000 lượng。" );	
 		}	
 	}
 	else
@@ -197,7 +197,7 @@ int get_use_effect_callout( object who,object gift)
 		if (rate<10000)
 		{
 			who->add_cash(500);
-			write_user( who, ECHO "您获得500金钱。" );	
+			write_user( who, ECHO "Bạn nhận được 500 lượng。" );	
 		}	
 		if (rate<2000)
 		{
@@ -205,7 +205,7 @@ int get_use_effect_callout( object who,object gift)
 			if( USER_INVENTORY_D->can_carry_3(who, item)  >=1 )
 			{	
 				item->set_amount(30);
-				write_user( who, ECHO "您获得"+item->get_name()+"30个。" );	
+				write_user( who, ECHO "Bạn nhận được"+item->get_name()+"30个。" );	
 				p = item->move2(who);
 				item->add_to_user(p);			
 			}		
@@ -215,7 +215,7 @@ int get_use_effect_callout( object who,object gift)
 		if (rate<1000)
 		{
 			who->add_cash(1000);
-			write_user( who, ECHO "您获得1000金钱。" );	
+			write_user( who, ECHO "Bạn nhận được 1000 lượng。" );	
 		}	
 		if (rate<400)//20级白装
 		{
@@ -224,7 +224,7 @@ int get_use_effect_callout( object who,object gift)
                         item = new( file );
 			if( USER_INVENTORY_D->can_carry_3(who, item)  >=1 )
 			{	
-				write_user( who, ECHO "您获得"+item->get_name()+"。" );	
+				write_user( who, ECHO "Bạn nhận được"+item->get_name()+"。" );	
 				p = item->move2(who);
 				item->add_to_user(p);			
 			}
@@ -236,7 +236,7 @@ int get_use_effect_callout( object who,object gift)
 			item = new (sprintf("/item/54/%04d",change54[random(sizeof(change54))]));
 			if( USER_INVENTORY_D->can_carry_3(who, item)  >=1 )
 			{	
-				write_user( who, ECHO "您获得"+item->get_name()+"。" );	
+				write_user( who, ECHO "Bạn nhận được"+item->get_name()+"。" );	
 				p = item->move2(who);
 				item->add_to_user(p);			
 			}		
@@ -250,7 +250,7 @@ int get_use_effect_callout( object who,object gift)
                         item = new( file );
 			if( USER_INVENTORY_D->can_carry_3(who, item)  >=1 )
 			{	
-				write_user( who, ECHO "您获得"+item->get_name()+"。" );	
+				write_user( who, ECHO "Bạn nhận được"+item->get_name()+"。" );	
 				p = item->move2(who);
 				item->add_to_user(p);			
 			}
@@ -265,7 +265,7 @@ int get_use_effect_callout( object who,object gift)
                         ITEM_EQUIP_D->init_equip_prop_1(item);
 			if( USER_INVENTORY_D->can_carry_3(who, item)  >=1 )
 			{	
-				write_user( who, ECHO "您获得"+item->get_name()+"。" );	
+				write_user( who, ECHO "Bạn nhận được"+item->get_name()+"。" );	
 				p = item->move2(who);
 				item->add_to_user(p);			
 			}
@@ -279,7 +279,7 @@ int get_use_effect_callout( object who,object gift)
 			{	
 				result = result + item->get_name();
 				i=i+1;
-				write_user( who, ECHO "您获得"+item->get_name()+"。" );	
+				write_user( who, ECHO "Bạn nhận được"+item->get_name()+"。" );	
 				p = item->move2(who);
 				item->add_to_user(p);			
 			}		
@@ -287,7 +287,7 @@ int get_use_effect_callout( object who,object gift)
                                 destruct(item);
 		}	
 	}
-	result += "的意外惊喜！";
+	result += "vui mừng ngoài ý muốn！";
 	if (i>0) USER_D->user_channel(result);	
 	gift->add_amount(-1);
 	return 0;

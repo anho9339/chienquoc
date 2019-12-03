@@ -8,7 +8,7 @@ int get_item_color() { return 2; }
 // 函数：构造处理
 void create()
 {
-        set_name("重阳大礼包");
+        set_name("Trọng Dương Đại Lễ Bao");
         set_picid_1(4981);
         set_picid_2(4981);
 	set_amount(1);
@@ -20,7 +20,7 @@ int is_usable() {return 1;}
 // 函数：获取描述
 string get_desc() 
 { 
-        return "重阳老人在重阳节赠送的贵重礼物"; 
+        return "Quà tặng của Trọng Dương Lão Nhân ngày Tết Cửu Trùng"; 
 }
 
 int get_use_effect( object me ) 
@@ -33,10 +33,10 @@ int get_use_effect_callout( object who,object gift)
 	int rate,p,cash,level;
 	object item;
        	string *nTmp,tmp,cTmp;
-	string *nFamily = ({"桃花源","蜀山","禁卫军","唐门","茅山","昆仑山","云梦泽"});
+	string *nFamily = ({"Đào Hoa Nguyên","Thục Sơn","Cấm Vệ Quân","Đường Môn","Mao Sơn","Côn Luân","Vân Mộng Cốc"});
 	if(USER_INVENTORY_D->get_free_count(who) < 1 )
 	{
-	        send_user(who,"%c%s",';',"你的道具栏空间不足够哦，请整理一下吧。");
+	        send_user(who,"%c%s",';',"Có thể bạn không đủ không gian túi. Vui lòng sắp xếp lại nó。");
     		return 0;
 	}
 	rate = random(100);
@@ -91,14 +91,14 @@ int get_use_effect_callout( object who,object gift)
 		item = new(sprintf("/item/std/95%d1",random(8)+1));
 	if ( item )
 	{
-		send_user(who,"%c%s",'!',"恭喜您！您打开重阳礼包得到了"+item->get_name());
+		send_user(who,"%c%s",'!',"Xin chúc mừng! Bạn đã có gói quà tặng Trọng Dương"+item->get_name());
 		p = item->move2(who);
 		item->add_to_user(p);	
 	}
 	else
 	{
 		who->add_cash(20000);
-		send_user(who,"%c%s",'!',"恭喜您！您打开重阳礼包得到了20000金");
+		send_user(who,"%c%s",'!',"Xin chúc mừng! Bạn mở gói quà Trọng Dương và nhận 20000 vàng");
 	}
 	gift->add_amount(-1);
 	return 0;
