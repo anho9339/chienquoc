@@ -10,7 +10,7 @@ inherit ITEM;
 // 函数：构造处理
 void create()
 {
-        set_name("黑棋子");
+        set_name("Hắc Kỳ Tử");
         set_picid_1(3780);
         set_picid_2(3780);
         set_unit("枚");
@@ -21,5 +21,5 @@ void create()
 // 函数：获取描述
 string get_desc() 
 { 
-        return "一枚围棋子";
+        return "Một viên bàn cờ vây";
 }

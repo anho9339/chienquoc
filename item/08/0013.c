@@ -41,7 +41,7 @@ int get_use_effect_callout( object who,object item)
 	int i,iWeek;
 	if ( gone_time( who->get_login_time() )+ who->get_game_time()<who->get_extra_double_time())
 	{
-		send_user( who, "%c%c%w%s", ':', 3, 0,sprintf("你身上已经有一个战国令在产生作用，你确定要覆盖它的效果吗？\n"ESC"确定\nuse ! %x#\n"ESC"取消",getoid(item))); 
+		send_user( who, "%c%c%w%s", ':', 3, 0,sprintf("Bạn đã sử dụng Chiến Quốc Lệnh hiện tại.Bạn có chắc chắn muốn ghi đè hiệu lực của nó không？\n"ESC"Xác nhận\nuse ! %x#\n"ESC"Hủy bỏ",getoid(item))); 
 		return 0;
 	}
 	iWeek = (time() - 4 * 24*3600+8*3600) / (7*24*3600);
@@ -54,7 +54,7 @@ int get_use_effect_callout( object who,object item)
 	}
 	if ( who->get_save_2("double_time.time1") >= 25 )
 	{
-		send_user(who,"%c%s",'!',"你本周可使用战国令已经达到了使用上限。");
+		send_user(who,"%c%s",'!',"Bạn đã sử dụng tối đa Lệnh Chiến Quốc trong tuần này。");
 		return 0;	
 	}
 	who->add_save_2("double_time.time1",1);
@@ -82,7 +82,7 @@ int confirm_use_callout( object who, object item )
 	}
 	if ( who->get_save_2("double_time.time1") >= 25 )
 	{
-		send_user(who,"%c%s",'!',"你本周可使用战国令已经达到了使用上限。");
+		send_user(who,"%c%s",'!',"Bạn đã sử dụng tối đa Lệnh Chiến Quốc trong tuần này。");
 		return 0;	
 	}
 	who->add_save_2("double_time.time1",1);

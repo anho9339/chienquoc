@@ -10,7 +10,7 @@ inherit ITEM;
 // 函数：构造处理
 void create()
 {
-        set_name("银筷");
+        set_name("Đũa Bạc");
         set_picid_1(3505);
         set_picid_2(3505);
         set_unit("双");
@@ -21,5 +21,5 @@ void create()
 // 函数：获取描述
 string get_desc() 
 { 
-        return "日常用品的一种"; 
+        return "Một loại vật dụng thường ngày"; 
 }

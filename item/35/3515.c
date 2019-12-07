@@ -16,7 +16,7 @@ int get_item_type_2() { return ITEM_TYPE_2_COOK; }
 // 函数：构造处理
 void create()
 {
-        set_name("打火石");
+        set_name("Đá Đánh Lữa");
         set_picid_1(3515);
         set_picid_2(3515);
         set_unit("块");
@@ -27,5 +27,5 @@ void create()
 // 函数：获取描述
 string get_desc() 
 { 
-        return "相互碰击能摩擦出火花的石头"; 
+        return "Hai viên đá va chạm vào nhau tạo ra tia lữa"; 
 }

@@ -10,7 +10,7 @@ inherit ITEM;
 // 函数：构造处理
 void create()
 {
-        set_name("锣");
+        set_name("Chiêng");
         set_picid_1(3601);
         set_picid_2(3601);
         set_unit("面");
@@ -21,5 +21,5 @@ void create()
 // 函数：获取描述
 string get_desc() 
 { 
-        return "乐器的一种"; 
+        return "Một loại nhạc cụ"; 
 }

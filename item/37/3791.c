@@ -10,7 +10,7 @@ inherit ITEM;
 // 函数：构造处理
 void create()
 {
-        set_name("象棋残局");
+        set_name("Cờ Tướng Tàn Cuộc");
         set_picid_1(3791);
         set_picid_2(3791);
         set_unit("盘");
@@ -21,5 +21,5 @@ void create()
 // 函数：获取描述
 string get_desc() 
 { 
-        return "象棋残局";
+        return "Cờ Tướng Tàn Cuộc";
 }

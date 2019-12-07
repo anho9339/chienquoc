@@ -10,7 +10,7 @@ inherit ITEM;
 // 函数：构造处理
 void create()
 {
-        set_name("小木桶");
+        set_name("Thùng Gỗ Nhỏ");
         set_picid_1(3421);
         set_picid_2(3421);
         set_unit("只");
@@ -21,5 +21,5 @@ void create()
 // 函数：获取描述
 string get_desc() 
 { 
-        return "工具的一种"; 
+        return "Một loại công cụ"; 
 }

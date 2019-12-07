@@ -10,7 +10,7 @@ inherit ITEM;
 // 函数：构造处理
 void create()
 {
-        set_name("法笔");
+        set_name("Bút Pháp");
         set_picid_1(3456);
         set_picid_2(3456);
         set_unit("支");
@@ -21,5 +21,5 @@ void create()
 // 函数：获取描述
 string get_desc() 
 { 
-        return "祭拜用品的一种"; 
+        return "Đồ để thờ cúng và làm phép"; 
 }

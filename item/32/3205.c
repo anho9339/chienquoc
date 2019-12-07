@@ -1,28 +1,28 @@
-2
-// 自动生成：/make/item/make32a
+
+// 脳脭露炉脡煤鲁脡拢潞/make/item/make32a
 
 inherit ITEM;
     inherit COMBINED;
 
-// 函数：叠加上限
+// 潞炉脢媒拢潞碌镁录脫脡脧脧脼
 //  int get_max_combined() { return 30; }
 
-// 函数：原料类型
+// 潞炉脢媒拢潞脭颅脕脧脌脿脨脥
 int get_stuff_type() { return 146; }
 
-// 函数：构造处理
+// 潞炉脢媒拢潞鹿鹿脭矛麓娄脌铆
 void create()
 {
-        set_name("Cao L??ng");
+        set_name("Cao L瓢啤ng");
         set_picid_1(3205);
         set_picid_2(3205);
-        set_unit("根");
+        set_unit("赂霉");
         set_value(20);
         set_amount(1);
 }
 
-// 函数：获取描述
+// 潞炉脢媒拢潞禄帽脠隆脙猫脢枚
 string get_desc() 
 { 
-        return "M?t lo?i n?ng s?n."; 
+        return "M峄檛 lo岷 n么ng s岷."; 
 }

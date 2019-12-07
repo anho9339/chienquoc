@@ -95,5 +95,5 @@ int get_use_effect_callout( object me, object item )
 }
 
 string get_pet_desc() {
-	return "增加主人5%物防、5%法防、5%气血、5%暴击";
+	return "Chủ nhân gia tăng thêm 5% Ngoại Kháng, 5% Nội Kháng, 5% Khí Huyết, 5% Bạo Kích";
 }

@@ -9,7 +9,7 @@ inherit "/inh/equip/equip";
 #define PICID	3020
 void create()
 {
-	set_name("双鱼");
+	set_name("Song Ngư");
 	set_picid_1(4259);
         set_picid_2(4259);
         set_bind(4);
@@ -21,7 +21,7 @@ string get_desc()
 {
 	object item = this_object();
 	if (item->get_lock_time()==0) item->set_lock_time(time()+14*24*60*60);
-	return "十二星座之一的双鱼座。将其放出，主人法术攻击、物理攻击各增加5%";
+	return "Song Ngư, một trong mười hai chòm sao.Sử dụng gia tăng nội công và ngoại công của chủ nhân thêm 5%";
 }
 // 函数：使用效果
 int get_use_effect( object me ) { return __FILE__ ->get_use_effect_callout(me, this_object()); }
@@ -55,7 +55,7 @@ int get_use_effect_callout( object me, object item )
 	}
 	if(item->get_lock_time() < time())
 	{
-		send_user(me,"%c%s",'!',"该道具已经过期，不可以再使用，请做丢弃处理！");
+		send_user(me,"%c%s",'!',"Vật phẩm này đã hết hạn！");
 		return;
 	}
 	item->set_no_drop(1);

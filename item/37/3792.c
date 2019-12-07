@@ -10,7 +10,7 @@ inherit ITEM;
 // 函数：构造处理
 void create()
 {
-        set_name("围棋棋盘");
+        set_name("Bàn Cờ Vây");
         set_picid_1(3792);
         set_picid_2(3792);
         set_unit("盘");
@@ -21,5 +21,5 @@ void create()
 // 函数：获取描述
 string get_desc() 
 { 
-        return "围棋棋盘";
+        return "Bàn Cờ Vây";
 }

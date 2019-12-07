@@ -10,7 +10,7 @@ inherit ITEM;
 // 函数：构造处理
 void create()
 {
-        set_name("敷面粉");
+        set_name("Phấn Phủ");
         set_picid_1(3552);
         set_picid_2(3552);
         set_unit("盒");
@@ -21,5 +21,5 @@ void create()
 // 函数：获取描述
 string get_desc() 
 { 
-        return "化妆品的一种"; 
+        return "Một loại đồ trang điểm"; 
 }

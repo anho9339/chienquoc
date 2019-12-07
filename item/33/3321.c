@@ -13,7 +13,7 @@ int is_snack() { return 1; }
 // 函数：构造处理
 void create()
 {
-        set_name("豆腐干");
+        set_name("Đậu Phụ Khô");
         set_picid_1(3321);
         set_picid_2(3321);
         set_unit("块");
@@ -24,5 +24,5 @@ void create()
 // 函数：获取描述
 string get_desc() 
 { 
-        return "小吃的一种"; 
+        return "Món ăn vặt"; 
 }

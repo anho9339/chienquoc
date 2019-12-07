@@ -33,6 +33,6 @@ string get_loop_desc(object me)
 // 函数：获取描述
 string get_desc() 
 {
-	return "传说干将打造武器时所使用的宝石。";
+	return "Truyền thuyết tướng tài lúc chế tạo vũ khí sử dụng bảo thạch。";
 }
 
