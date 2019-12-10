@@ -16,7 +16,7 @@ int is_pet_item() { return 1;}
 // 函数：构造处理
 void create()
 {
-        set_name("宠物椰果");
+        set_name("Sủng Vật Gia Quả");
         set_picid_1(9975);
         set_picid_2(9975);
         set_unit("个");
@@ -28,7 +28,7 @@ void create()
 string get_desc() 
 {
 	string desc;
-	return desc = "给召唤兽食用的一种果子，每食用一次，宠物寿命增加\n当前寿命的10，并且有1％几率中毒。";
+	return desc = "Một loại quả cho thú nuôi,khi được tiêu thụ,tuổi thọ của chúng sẽ tăng lên\nTuổi thọ tăng thêm là 10,bị ngộ độc 1%.";
 }
 
 // 函数：使用效果
@@ -41,11 +41,11 @@ int get_use_effect_call(object me,object item)
 		return 0;
 	me->add_life(10);
 	owner = me->get_owner();
-	tell_user(owner,"你的"+me->get_name()+"寿命增加10点");
+	tell_user(owner,"của bạn"+me->get_name()+"Tuổi thọ gia tăng 10 điểm");
 	if( !random100() )
 	{
 		me->add_life(-200);
-		send_user(owner,"%c%s",'!',"你的"+me->get_name()+"中毒了！");
+		send_user(owner,"%c%s",'!',"của bạn"+me->get_name()+"bị trúng độc!");
 	}
 	return 1;	
 }

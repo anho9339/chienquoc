@@ -17,7 +17,7 @@ string get_suit_name() { return "Cuồng Sư"; }	//属于某某套装
 // 函数：构造处理
 void create()
 {
-        set_name("Cuồng Sư Đầu Khôi");
+        set_name("Cuồng Sư Đầu Cân");
         set_picid_1(6562);
         set_picid_2(6562);
 
@@ -40,12 +40,12 @@ void create()
 // 函数：获取描述
 string get_desc()
 {
-        return "Cuồng Sư Đầu Khôi";
+        return "Cuồng Sư Đầu Cân";
 }
 
 // 函数：获取套装描述
 string get_suit_desc()
 {
-        return "狂狮套装其中之一,相传穿上\n全套就会拥有神秘的力量";
+        return "Một trong những bộ đồ sư tử điên\nMang đủ bộ sẽ có sức mạnh bí ẩn";
 }
 

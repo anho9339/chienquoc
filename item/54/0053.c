@@ -18,7 +18,7 @@ int get_card_time() { return card_time;}
 // 函数：构造处理
 void create()
 {
-        set_name("Thẻ Lưu Manh");
+        set_name("Thẻ Lưu Manh 2");
         set_picid_1(3810);
         set_picid_2(3810);
         set_value(20000);
@@ -29,7 +29,7 @@ void create()
 // 函数：获取描述
 string get_desc() 
 { 
-        return "Kéo dài một giờ, tăng 1% điểm phòng ngự nội công."; 
+        return "Trong 1 giờ hóa thân thành LM2,gia tăng nội kháng 1%."; 
 }
 
 int get_use_effect( object me ) 

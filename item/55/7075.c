@@ -17,7 +17,7 @@ string get_suit_name() { return "Linh Lộc"; }	//属于某某套装
 // 函数：构造处理
 void create()
 {
-        set_name("Mũ Linh Lộc");
+        set_name("Linh Lộc Đầu Cân");
         set_picid_1(6656);
         set_picid_2(6656);
 
@@ -40,12 +40,12 @@ void create()
 // 函数：获取描述
 string get_desc()
 {
-        return "Mũ Linh Lộc";
+        return "Linh Lộc Đầu Cân";
 }
 
 // 函数：获取套装描述
 string get_suit_desc()
 {
-        return "灵鹿套装其中之一,相传穿上全套就会拥有神秘的力量";
+        return "Một trong những bộ đồ thần rừng\nMang đủ sẽ có sức mạnh bí ẩn";
 }
 

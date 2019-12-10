@@ -18,7 +18,7 @@ int get_card_time() { return card_time;}
 // 函数：构造处理
 void create()
 {
-        set_name("狗熊卡");
+        set_name("Thẻ Cẩu Hùng");
         set_picid_1(3810);
         set_picid_2(3810);
         set_value(40000);
@@ -29,7 +29,7 @@ void create()
 // 函数：获取描述
 string get_desc() 
 { 
-        return "持续1小时内变身为狗熊，gia tăng 2% phòng ngự ngoại công."; 
+        return "Trong 1 giờ hóa thân thành Gấu Chó,gia tăng ngoại kháng 2%."; 
 }
 
 int get_use_effect( object me ) 

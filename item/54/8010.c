@@ -18,7 +18,7 @@ int get_card_time() { return card_time;}
 // 函数：构造处理
 void create()
 {
-        set_name("水贼卡");
+        set_name("Thẻ Thủy Tặc");
         set_picid_1(3811);
         set_picid_2(3811);
         set_value(40000);
@@ -29,7 +29,7 @@ void create()
 // 函数：获取描述
 string get_desc() 
 { 
-        return "持续1小时内变身为水贼，gia tăng 2% pháp lực."; 
+        return "Trong 1 giờ hóa thân thành Thủy Tặc,gia tăng pháp lực 2%."; 
 }
 
 int get_use_effect( object me ) 

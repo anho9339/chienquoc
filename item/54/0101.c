@@ -29,7 +29,7 @@ void create()
 // 函数：获取描述
 string get_desc() 
 { 
-        return "Kéo dài 1 giờ, tăng lên 1% khí huyết."; 
+        return "Trong 1 giờ hóa thân thành Cún,gia tăng khí huyết 1%."; 
 }
 
 int get_use_effect( object me ) 

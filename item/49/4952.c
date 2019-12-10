@@ -10,7 +10,7 @@ inherit ITEM;
 // 函数：构造处理
 void create()
 {
-        set_name("虎纹玉佩");
+        set_name("Hổ Văn Ngọc Bội");
         set_picid_1(4952);
         set_picid_2(4952);
         set_unit("块");
@@ -21,5 +21,5 @@ void create()
 // 函数：获取描述
 string get_desc() 
 { 
-        return "虎纹玉佩";
+        return "Hổ Văn Ngọc Bội";
 }

@@ -13,7 +13,7 @@ int get_equip_serial() { return 1; }	//第几套
 // 函数：适用门派
 int get_family() { return 5; }
 //套装名字
-string get_suit_name() { return "Sói Trắng"; }	//属于某某套装
+string get_suit_name() { return "Bạch Lang"; }	//属于某某套装
 // 函数：构造处理
 void create()
 {
@@ -46,6 +46,6 @@ string get_desc()
 // 函数：获取套装描述
 string get_suit_desc()
 {
-        return "Trang bị Tử Kim Sói Trắng";
+        return "Một trong những bộ đồ sói trắng\nMang đủ bộ sẽ có sức mạnh bí ẩn";
 }
 

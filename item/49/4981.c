@@ -10,7 +10,7 @@ inherit ITEM;
 // 函数：构造处理
 void create()
 {
-        set_name("官印");
+        set_name("Quan Ấn");
         set_picid_1(4981);
         set_picid_2(4981);
         set_unit("方");
@@ -21,5 +21,5 @@ void create()
 // 函数：获取描述
 string get_desc() 
 { 
-        return "官印";
+        return "Quan Ấn";
 }

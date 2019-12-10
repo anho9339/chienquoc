@@ -10,7 +10,7 @@ inherit ITEM;
 // 函数：构造处理
 void create()
 {
-        set_name("毛笔");
+        set_name("Bút Lông");
         set_picid_1(3852);
         set_picid_2(3852);
         set_unit("支");
@@ -21,5 +21,5 @@ void create()
 // 函数：获取描述
 string get_desc() 
 { 
-        return "毛笔";
+        return "Bút Lông";
 }

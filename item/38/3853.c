@@ -10,7 +10,7 @@ inherit ITEM;
 // 函数：构造处理
 void create()
 {
-        set_name("砚台");
+        set_name("Nghiên Mực");
         set_picid_1(3853);
         set_picid_2(3853);
         set_unit("方");
@@ -21,5 +21,5 @@ void create()
 // 函数：获取描述
 string get_desc() 
 { 
-        return "砚台";
+        return "Nghiên Mực";
 }

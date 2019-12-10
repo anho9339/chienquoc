@@ -18,7 +18,7 @@ int get_card_time() { return card_time;}
 // 函数：构造处理
 void create()
 {
-        set_name("花豹卡");
+        set_name("Thẻ báo Đốm");
         set_picid_1(3811);
         set_picid_2(3811);
         set_value(40000);
@@ -29,7 +29,7 @@ void create()
 // 函数：获取描述
 string get_desc() 
 { 
-        return "持续1小时内变身为花豹，gia tăng 2% né tránh."; 
+        return "Trong 1 giờ hóa thân thành Báo,gia tăng né tránh 2%."; 
 }
 
 int get_use_effect( object me ) 

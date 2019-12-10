@@ -46,6 +46,6 @@ string get_desc()
 // 函数：获取套装描述
 string get_suit_desc()
 {
-        return "Trang bị Tử Kim Linh Lộc";
+        return "Một trong những bộ đồ thần rừng\nMang đủ sẽ có sức mạnh bí ẩn";
 }
 

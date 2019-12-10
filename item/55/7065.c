@@ -13,11 +13,11 @@ int get_equip_serial() { return 1; }	//第几套
 // 函数：适用门派
 int get_family() { return 7; }
 //套装名字
-string get_suit_name() { return "Linh hồ"; }	//属于某某套装
+string get_suit_name() { return "Linh Hồ"; }	//属于某某套装
 // 函数：构造处理
 void create()
 {
-        set_name("Linh hồ nhung mão");
+        set_name("Linh Hồ Cân Mão");
         set_picid_1(6656);
         set_picid_2(6656);
 
@@ -40,12 +40,12 @@ void create()
 // 函数：获取描述
 string get_desc()
 {
-        return "Linh hồ nhung mão";
+        return "Linh Hồ Cân Mão";
 }
 
 // 函数：获取套装描述
 string get_suit_desc()
 {
-        return "Linh hồ套装其中之一,相传穿上\n全套就会拥有神秘的力量";
+        return "Một trong những bộ đồ yêu Hồ\nMang đủ bộ sẽ có sức mạnh bí ẩn";
 }
 

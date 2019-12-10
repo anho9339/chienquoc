@@ -18,7 +18,7 @@ int get_card_time() { return card_time;}
 // 函数：构造处理
 void create()
 {
-        set_name("龟丞相卡");
+        set_name("Thẻ Quy Thừa Tướng");
         set_picid_1(3812);
         set_picid_2(3812);
         set_value(40000);
@@ -29,7 +29,7 @@ void create()
 // 函数：获取描述
 string get_desc() 
 { 
-        return "持续1小时内变身为龟丞相，gia tăng 2% nội công.。"; 
+        return "Trong 1 giờ hóa thân thành QTT，gia tăng nội công 2%."; 
 }
 
 int get_use_effect( object me ) 

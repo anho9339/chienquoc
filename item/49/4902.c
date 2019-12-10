@@ -10,7 +10,7 @@ inherit ITEM;
 // 函数：构造处理
 void create()
 {
-        set_name("竹蜻蜓");
+        set_name("Chong Chóng Tre");
         set_picid_1(4902);
         set_picid_2(4902);
         set_unit("个");
@@ -21,5 +21,5 @@ void create()
 // 函数：获取描述
 string get_desc() 
 { 
-        return "竹蜻蜓";
+        return "Chong Chóng Tre";
 }

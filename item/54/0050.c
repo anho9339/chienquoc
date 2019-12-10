@@ -18,7 +18,7 @@ int get_card_time() { return card_time;}
 // 函数：构造处理
 void create()
 {
-        set_name("楚国刀兵卡");
+        set_name("Thẻ Sở Quốc Đao Binh");
         set_picid_1(3810);
         set_picid_2(3810);
         set_value(20000);
@@ -29,7 +29,7 @@ void create()
 // 函数：获取描述
 string get_desc() 
 { 
-        return "持续1小时内变身为楚国刀兵，gia tăng 1% ngoại công."; 
+        return "Trong 1 giờ hóa thân thành SQĐB，gia tăng ngoại công 1%."; 
 }
 
 int get_use_effect( object me ) 

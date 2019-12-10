@@ -10,7 +10,7 @@ inherit ITEM;
 // 函数：构造处理
 void create()
 {
-        set_name("柳条");
+        set_name("Cành Liễu");
         set_picid_1(4908);
         set_picid_2(4908);
         set_unit("根");
@@ -21,5 +21,5 @@ void create()
 // 函数：获取描述
 string get_desc() 
 { 
-        return "柳条";
+        return "Cành Liễu";
 }

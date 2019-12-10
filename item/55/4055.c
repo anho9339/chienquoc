@@ -13,11 +13,11 @@ int get_equip_serial() { return 1; }	//第几套
 // 函数：适用门派
 int get_family() { return 4; }
 //套装名字
-string get_suit_name() { return "Săn Báo"; }	//属于某某套装
+string get_suit_name() { return "Lạp Báo"; }	//属于某某套装
 // 函数：构造处理
 void create()
 {
-        set_name("Lạp Báo Đầu Cân");
+        set_name("Lạp Báo Đầu Khôi");
         set_picid_1(8714);
         set_picid_2(8714);
 
@@ -40,12 +40,12 @@ void create()
 // 函数：获取描述
 string get_desc()
 {
-        return "Lạp Báo Đầu Cân";
+        return "Lạp Báo Đầu Khôi";
 }
 
 // 函数：获取套装描述
 string get_suit_desc()
 {
-        return "Trang bị Tử Kim Săn Báo";
+        return "Một trong những bộ đồ săn báo\nMang đủ bộ sẽ có sức mạnh bí ẩn";
 }
 

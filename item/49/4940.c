@@ -10,7 +10,7 @@ inherit ITEM;
 // 函数：构造处理
 void create()
 {
-        set_name("玉石");
+        set_name("Ngọc Thạch");
         set_picid_1(4940);
         set_picid_2(4940);
         set_unit("块");
@@ -21,5 +21,5 @@ void create()
 // 函数：获取描述
 string get_desc() 
 { 
-        return "玉石";
+        return "Ngọc Thạch";
 }

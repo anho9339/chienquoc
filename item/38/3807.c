@@ -10,7 +10,7 @@ inherit ITEM;
 // 函数：构造处理
 void create()
 {
-        set_name("《礼记》");
+        set_name("《Lễ Ký》");
         set_picid_1(3807);
         set_picid_2(3807);
         set_unit("本");
@@ -21,5 +21,5 @@ void create()
 // 函数：获取描述
 string get_desc() 
 { 
-        return "书籍的一种";
+        return "Một loại thư sách";
 }

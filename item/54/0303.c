@@ -18,7 +18,7 @@ int get_card_time() { return card_time;}
 // 函数：构造处理
 void create()
 {
-        set_name("牛头怪卡");
+        set_name("Thẻ Ngưu Đầu Quái");
         set_picid_1(3810);
         set_picid_2(3810);
         set_value(40000);
@@ -29,7 +29,7 @@ void create()
 // 函数：获取描述
 string get_desc() 
 { 
-        return "持续1小时内变身为牛头怪，gia tăng 2% chính xác."; 
+        return "Trong 1 giờ hóa thân thành Trẻ Trâu，gia tăng chính xác 2%."; 
 }
 
 int get_use_effect( object me ) 

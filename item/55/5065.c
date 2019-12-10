@@ -13,11 +13,11 @@ int get_equip_serial() { return 1; }	//第几套
 // 函数：适用门派
 int get_family() { return 5; }
 //套装名字
-string get_suit_name() { return "Sói trắng"; }	//属于某某套装
+string get_suit_name() { return "Bạch Lang"; }	//属于某某套装
 // 函数：构造处理
 void create()
 {
-        set_name("Bạch Lang Bì Mão");
+        set_name("Bạch Lang Cân Mão");
         set_picid_1(6500);
         set_picid_2(6500);
 
@@ -40,12 +40,12 @@ void create()
 // 函数：获取描述
 string get_desc()
 {
-        return "Bạch Lang Bì Mão";
+        return "Bạch Lang Cân Mão";
 }
 
 // 函数：获取套装描述
 string get_suit_desc()
 {
-        return "白狼套装其中之一,相传穿上\n全套就会拥有神秘的力量";
+        return "Một trong những bộ đồ sói trắng\nMang đủ bộ sẽ có sức mạnh bí ẩn";
 }
 

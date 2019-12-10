@@ -13,11 +13,11 @@ int get_equip_serial() { return 1; }	//第几套
 // 函数：适用门派
 int get_family() { return 1; }
 //套装名字
-string get_suit_name() { return "巨象"; }	//属于某某套装
+string get_suit_name() { return "Cự Tượng"; }	//属于某某套装
 // 函数：构造处理
 void create()
 {
-        set_name("巨象盔甲");
+        set_name("Cự Tượng Chiến Giáp");
         set_picid_1(6080);
         set_picid_2(6080);
 
@@ -40,12 +40,12 @@ void create()
 // 函数：获取描述
 string get_desc()
 {
-        return "巨象盔甲";
+        return "Cự Tượng Chiến Giáp";
 }
 
 // 函数：获取套装描述
 string get_suit_desc()
 {
-        return "巨象套装其中之一,相传穿上\n全套就会拥有神秘的力量";
+        return "Một trong những bộ đồ Voi khổng lồ\nMang đủ bộ sẽ có sức mạnh bí ẩn";
 }
 

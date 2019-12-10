@@ -17,7 +17,7 @@ string get_suit_name() { return "Lôi Quang"; }	//属于某某套装
 // 函数：构造处理
 void create()
 {
-        set_name("Mũ Lôi Quang");
+        set_name("Lôi Quang Cân Mão");
         set_picid_1(6562);
         set_picid_2(6562);
 
@@ -40,12 +40,12 @@ void create()
 // 函数：获取描述
 string get_desc()
 {
-        return "Mũ Lôi Quang";
+        return "Lôi Quang Cân Mão";
 }
 
 // 函数：获取套装描述
 string get_suit_desc()
 {
-        return "雷霆套装其中之一,相传穿上全套就会拥有神秘的力量";
+        return "Một trong những bộ đồ thần Sấm\nMang đủ bộ sẽ có sức mạnh bí ẩn";
 }
 

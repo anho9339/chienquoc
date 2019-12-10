@@ -10,7 +10,7 @@ inherit ITEM;
 // 函数：构造处理
 void create()
 {
-        set_name("白纸");
+        set_name("Giấy Trắng");
         set_picid_1(3850);
         set_picid_2(3850);
         set_unit("张");
@@ -21,5 +21,5 @@ void create()
 // 函数：获取描述
 string get_desc() 
 { 
-        return "白纸";
+        return "Giấy Trắng";
 }
