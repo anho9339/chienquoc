@@ -17,7 +17,7 @@ string get_suit_name() { return "Thái Dương"; }	//属于某某套装
 // 函数：构造处理
 void create()
 {
-        set_name("Thái Dương Chiến Giáp");
+        set_name("Thái Dương Giáp Bào");
         set_picid_1(6105);
         set_picid_2(6105);
 
@@ -40,12 +40,12 @@ void create()
 // 函数：获取描述
 string get_desc()
 {
-        return "Thái Dương Chiến Giáp";
+        return "Thái Dương Giáp Bào";
 }
 
 // 函数：获取套装描述
 string get_suit_desc()
 {
-        return "炫御套装其中之一,相传穿上全套就会拥有神秘的力量";
+        return "Một trong những bộ đồ rực hào quang\nMang đủ bộ sẽ có sức mạnh bí ẩn";
 }
 

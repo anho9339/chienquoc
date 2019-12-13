@@ -13,11 +13,11 @@ int get_equip_serial() { return 1; }	//第几套
 // 函数：适用门派
 int get_family() { return 1; }
 //套装名字
-string get_suit_name() { return "腾龙"; }	//属于某某套装
+string get_suit_name() { return "Đằng Long"; }	//属于某某套装
 // 函数：构造处理
 void create()
 {
-        set_name("腾龙盔甲");
+        set_name("Đằng Long Khôi Giáp");
         set_picid_1(6080);
         set_picid_2(6080);
 
@@ -40,12 +40,12 @@ void create()
 // 函数：获取描述
 string get_desc()
 {
-        return "腾龙盔甲";
+        return "Đằng Long Khôi Giáp";
 }
 
 // 函数：获取套装描述
 string get_suit_desc()
 {
-        return "腾龙套装其中之一,相传穿上全套就会拥有神秘的力量";
+        return "Một trong những bộ đồ tộc Rồng\nMang đủ bộ sẽ có sức mạnh bí ẩn";
 }
 

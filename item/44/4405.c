@@ -14,7 +14,7 @@ int is_pet_item() { return 1;}
 // 函数：构造处理
 void create()
 {
-        set_name("宠物强化丹");
+        set_name("Sủng Vật Cường Hóa Đan");
         set_picid_1(0088);
         set_picid_2(0088);
         set_unit("个");
@@ -26,7 +26,7 @@ void create()
 string get_desc() 
 {
 	string desc;
-	return desc = "缩短死亡宠物召唤时间的神药。\n（宠物死亡后召唤使用，使用后将死亡宠物再次召唤时间从10分钟缩短为0分钟）";
+	return desc = "Rút ngắn thời gian triệu hồi thú cưng đã chết\n(Sau khi sử dụng giảm thời gian triệu hồi thú cưng đã chết từ 10 phút xuống 0 phút.）";
 }
 
 // 函数：使用效果
