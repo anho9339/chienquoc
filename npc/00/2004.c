@@ -17,7 +17,7 @@ int is_self_look() { return 1; }
 // 函数：构造处理
 void create()
 {
-        set_name("破罐子");
+        set_name("Phá Quán Tử");
 
         setup();
 }
