@@ -46,6 +46,6 @@ string get_desc()
 // 函数：获取套装描述
 string get_suit_desc()
 {
-        return "猎豹套装其中之一,相传穿上\n全套就会拥有神秘的力量";
+        return "Liệp Bao trang bi truyen thuyet...\n Mang du set se dc suc manh than bi";
 }
 
