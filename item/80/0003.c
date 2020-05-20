@@ -13,7 +13,7 @@ int is_usable() {return 1;}
 // 函数：获取描述
 string get_desc() 
 { 
-        return "不知道是谁丢失的小宝箱，打开看看有什么惊喜……"; 
+        return "Không biết là ai mất đi đích tiểu trong bảo khố tương, mở ra nhìn xem có cái gì kinh hỉ..."; 
 }
 
 int get_use_effect( object me ) 

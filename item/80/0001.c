@@ -8,7 +8,7 @@ int get_family() { return 8; }
 // 函数：构造处理
 void create()
 {
-        set_name("热血头巾");
+        set_name("Nhiệt Huyết Đầu Cân");
         set_picid_1(8511);
         set_picid_2(8511);
 
@@ -25,5 +25,5 @@ void create()
 // 函数：获取描述
 string get_desc()
 {
-        return "鹰目头巾";
+        return "Ưng mục đầu cân";
 }
