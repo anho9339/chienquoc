@@ -12,7 +12,7 @@ void do_welcome( string arg );
 // 函数：构造处理
 void create()
 {
-        set_name("生活技能帮助使者");
+        set_name("Sứ Giả Trợ Giúp Kỹ Năng Sinh Hoạt");
         set_2( "talk", ([
                 "welcome"          : (: do_welcome :),
         ]));
