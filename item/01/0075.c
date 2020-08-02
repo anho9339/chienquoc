@@ -1,32 +1,32 @@
-
 #include <equip.h>
 
 inherit WEAPON;
 
-// 函数：构造处理
 void create()
 {
-        set_name("Tuyệt Sát");
-        set_picid_1(7522);
-        set_picid_2(7522);
-        set_unit("根");
+    set_name("Tuyệt Sát");
 
-        set_level(0);
-        set_value(0);
-        set_max_lasting(1099);
-        set("ap", 20);
-        set("!%", 6);
+    set_picid_1(7522);
+    set_picid_2(7522);
 
-        setup();
+    set_level(0);
+    set_value(0);
+    set_max_lasting(1099);
 
-        set_weapon_type(STICK);
+    set("ap", 20);
+    set("!%", 6);
+
+    setup();
+
+    set_weapon_type(STICK);
 }
 
-// 函数：获取武器级别
-int get_weapon_level() { return 22; }
+int get_weapon_level()
+{
+    return 22;
+}
 
-// 函数：获取描述
 string get_desc()
 {
-        return "“Côn Pháp”Trang bị";
+    return "“Côn Pháp”Trang bị";
 }

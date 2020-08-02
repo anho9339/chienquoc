@@ -1,26 +1,24 @@
-
 inherit BOOTS;
 
-// 函数：构造处理
 void create()
 {
-        set_name("Vấn Đồ Hài");
-        set_picid_1(8802);
-        set_picid_2(8802);
-        set_unit("双");
+    set_name("Vấn Đồ Hài");
 
-        set_level(0);
-        set_value(10);
-        set_max_lasting(2199);
-        set("dp", 2);
-        set("pp", 2);
-        set("X@%", 5);
+    set_picid_1(8802);
+    set_picid_2(8802);
 
-        setup();
+    set_level(0);
+    set_value(10);
+    set_max_lasting(2199);
+
+    set("dp", 2);
+    set("pp", 2);
+    set("X@%", 5);
+
+    setup();
 }
 
-// 函数：获取描述
 string get_desc()
 {
-        return "Vấn Đồ Hài";
+    return "Vấn Đồ Hài";
 }
