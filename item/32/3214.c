@@ -1,27 +1,28 @@
-
 // 自动生成：/make/item/make32a
 
 inherit ITEM;
-    inherit COMBINED;
+inherit COMBINED;
 
-// 函数：叠加上限
 //  int get_max_combined() { return 30; }
-// 函数：原料类型
-int get_stuff_type() { return 151; }
 
-// 函数：构造处理
-void create()
+int get_stuff_type()
 {
-        set_name("Bạch Thái");
-        set_picid_1(3214);
-        set_picid_2(3214);
-        set_unit("颗");
-        set_value(20);
-        set_amount(1);
+    return 151;
 }
 
-// 函数：获取描述
-string get_desc() 
-{ 
-        return "Một loại nông sản."; 
+void create()
+{
+    set_name("Bạch Thái");
+
+    set_picid_1(3214);
+    set_picid_2(3214);
+
+    set_value(20);
+
+    set_amount(1);
+}
+
+string get_desc()
+{
+    return "Một loại nông sản.";
 }

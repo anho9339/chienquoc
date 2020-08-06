@@ -1,29 +1,33 @@
-#include <item.h>
 #include <effect.h>
+#include <item.h>
 #include <skill.h>
+
 inherit ITEM;
 inherit COMBINED;
 
-
-// 函数：可使用物品
-int get_item_type_2() { return ITEM_TYPE_2_STUFF; }
-
-// 函数：原料类型
-int get_stuff_type() { return 171; }
-
-// 函数：构造处理
-void create()
+int get_item_type_2()
 {
-        set_name("Trứng");
-        set_picid_1(3251);
-        set_picid_2(3251);
-        set_unit("个");
-        set_value(50);
-        set_amount(1);
+    return ITEM_TYPE_2_STUFF;
 }
 
-// 函数：获取描述
-string get_desc() 
-{ 
-        return "Những thứ cần thiết trong kỹ năng sống"; 
+int get_stuff_type()
+{
+    return 171;
+}
+
+void create()
+{
+    set_name("Trứng");
+
+    set_picid_1(3251);
+    set_picid_2(3251);
+
+    set_value(50);
+
+    set_amount(1);
+}
+
+string get_desc()
+{
+    return "Là thứ cần thiết trong kỹ năng sống";
 }
