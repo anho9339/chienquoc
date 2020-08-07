@@ -21,7 +21,7 @@ string get_diamond_type() { return "hp"; }
 // 函数：构造处理
 void create()
 {
-        set_name("残缺橙晶石");
+        set_name("Tàn Khuyết Chanh Tinh Thạch"):
         set_picid_1(8901);
         set_picid_2(8901);
         set_unit("块");
@@ -32,7 +32,7 @@ void create()
 // 函数：获取描述
 string get_desc() 
 { 
-        return "［宝石合成材料］增加气血"; 
+        return "［Bảo Thạch Hợp Thành］Gia tăng khí huyết"; 
 }
 
 // 函数：生成宝石文件
