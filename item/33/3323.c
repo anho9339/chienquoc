@@ -1,28 +1,26 @@
-
 // 自动生成：/make/item/make33
 
 inherit ITEM;
-    inherit COMBINED;
+inherit COMBINED;
 
-// 函数：叠加上限
 //  int get_max_combined() { return 30; }
 
-// 函数：小吃识别
-int is_snack() { return 1; }
-
-// 函数：构造处理
-void create()
+int is_snack()
 {
-        set_name("Hạt Hướng Dương");
-        set_picid_1(3323);
-        set_picid_2(3323);
-        set_unit("盘");
-        set_value(20);
-        set_amount(1);
+    return 1;
 }
 
-// 函数：获取描述
-string get_desc() 
-{ 
-        return "Món ăn vặt"; 
+void create()
+{
+    set_name("Hạt Hướng Dương");
+    set_picid_1(3323);
+    set_picid_2(3323);
+    set_unit("盘");
+    set_value(20);
+    set_amount(1);
+}
+
+string get_desc()
+{
+    return "Một món ăn vặt vào dịp lễ Tết";
 }

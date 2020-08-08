@@ -1,25 +1,23 @@
-
 // 自动生成：/make/item/make36
 
 inherit ITEM;
-    inherit COMBINED;
+inherit COMBINED;
 
-// 函数：叠加上限
 //  int get_max_combined() { return 30; }
 
-// 函数：构造处理
 void create()
 {
-        set_name("Đàn Nhị");
-        set_picid_1(3611);
-        set_picid_2(3611);
-        set_unit("个");
-        set_value(50);
-        set_amount(1);
+    set_name("Đàn Nhị");
+
+    set_picid_1(3611);
+    set_picid_2(3611);
+
+    set_value(50);
+
+    set_amount(1);
 }
 
-// 函数：获取描述
-string get_desc() 
-{ 
-        return "Một loại nhạc cụ"; 
+string get_desc()
+{
+    return "Một loại nhạc cụ tạo ra âm thanh ở các bữa tiệc rượu";
 }
