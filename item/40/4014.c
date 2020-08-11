@@ -1,27 +1,28 @@
-
 // 自动生成：/make/item/make30
 
 inherit ITEM;
-    inherit COMBINED;
+inherit COMBINED;
 
-// 函数：获取装备颜色：灰色
-int get_item_color() { return 0; }
-
-// 函数：叠加上限
-//  int get_max_combined() { return 30; }
-
-// 函数：构造处理
-void create()
+int get_item_color()
 {
-        set_name("Phá Tổn Giáp");
-        set_picid_1(4014);
-        set_picid_2(4014);
-        set_value(93);
-        set_amount(1);
+    return 0;
 }
 
-// 函数：获取描述
-string get_desc() 
-{ 
-        return "Áo giáp đã bị rách nát, vật phẩm dùng để bán"; 
+//  int get_max_combined() { return 30; }
+
+void create()
+{
+    set_name("Phá Tổn Giáp");
+
+    set_picid_1(4014);
+    set_picid_2(4014);
+
+    set_value(93);
+
+    set_amount(1);
+}
+
+string get_desc()
+{
+    return "Áo giáp đã bị rách nát\n Vật phẩm dùng để bán";
 }

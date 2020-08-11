@@ -1,27 +1,28 @@
-
 // 自动生成：/make/item/make30
 
 inherit ITEM;
-    inherit COMBINED;
+inherit COMBINED;
 
-// 函数：原料类型
-int get_stuff_type() { return 237; }
-
-// 函数：叠加上限
-//  int get_max_combined() { return 30; }
-
-// 函数：构造处理
-void create()
+int get_stuff_type()
 {
-        set_name("Mạng Nhện");
-        set_picid_1(4050);
-        set_picid_2(4050);
-        set_value(290);
-        set_amount(1);
+    return 237;
 }
 
-// 函数：获取描述
-string get_desc() 
-{ 
-        return "Một loại sợi đặc thù"; 
+//  int get_max_combined() { return 30; }
+
+void create()
+{
+    set_name("Mạng Nhện");
+
+    set_picid_1(4050);
+    set_picid_2(4050);
+
+    set_value(290);
+
+    set_amount(1);
+}
+
+string get_desc()
+{
+    return "Sợi tơ do con Nhện tiết ra và đan lại tạo nên\n Vật phẩm dùng để bán";
 }

@@ -33,7 +33,7 @@ void create()
     setup();
 
     set_gender(2);
-
+    
     set_back_type(1);
     set_back_color(0xaaaaa);
 }

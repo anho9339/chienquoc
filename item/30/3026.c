@@ -31,7 +31,7 @@ void create()
     setup();
 
     set_gender(1);
-
+    
     set_back_type(4);
 }
 
