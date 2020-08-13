@@ -21,7 +21,7 @@ string get_diamond_type() { return "ap"; }
 // 函数：构造处理
 void create()
 {
-        set_name("残缺白晶石");
+        set_name("Tàn khuyết bạch tinh thạch");
         set_picid_1(8905);
         set_picid_2(8905);
         set_unit("块");
@@ -32,7 +32,7 @@ void create()
 // 函数：获取描述
 string get_desc() 
 { 
-        return "［宝石合成材料］增加攻击"; 
+        return "[ bảo thạch hợp thành tài liêu ] Gia Tăng CK"; 
 }
 
 // 函数：生成宝石文件

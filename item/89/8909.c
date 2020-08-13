@@ -21,7 +21,7 @@ string get_diamond_type() { return "dp"; }
 // 函数：构造处理
 void create()
 {
-        set_name("残缺青晶石");
+        set_name("Tàn khuyết thanh tinh thạch");
         set_picid_1(8909);
         set_picid_2(8909);
         set_unit("块");
@@ -32,7 +32,7 @@ void create()
 // 函数：获取描述
 string get_desc() 
 { 
-        return "［宝石合成材料］增加防御"; 
+        return "［Hợp Thành bảo Thạch］Gia Tăng Ngoại Kháng"; 
 }
 
 // 函数：生成宝石文件
