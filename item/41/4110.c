@@ -1,34 +1,41 @@
-
 // 自动生成：/make/item/make30
 #include <item.h>
 inherit ITEM;
-    inherit COMBINED;
+inherit COMBINED;
 
-// 函数：叠加上限
-int get_max_combined() { return 30; }
-
-// 函数：原料类型
-int get_stuff_type() { return 218; }
-
-// 函数：可使用物品
-int get_item_type_2() { return ITEM_TYPE_2_STUFF; }
-
-// 函数：原料颜色
-int get_item_color() { return 0; }
-
-// 函数：构造处理
-void create()
+int get_max_combined()
 {
-        set_name("Nhiếp Hồn Thạch");
-        set_picid_1(4110);
-        set_picid_2(4110);
-        set_unit("个");
-        set_value(500);
-        set_amount(1);
+    return 30;
 }
 
-// 函数：获取描述
-string get_desc() 
-{ 
-        return "Nguyên liệu cần thiết của rèn đúc, điêu khắc, may mặc, cơ quan"; 
+int get_stuff_type()
+{
+    return 218;
+}
+
+int get_item_type_2()
+{
+    return ITEM_TYPE_2_STUFF;
+}
+
+int get_item_color()
+{
+    return 0;
+}
+
+void create()
+{
+    set_name("Nhiếp Hồn Thạch");
+
+    set_picid_1(4110);
+    set_picid_2(4110);
+
+    set_value(500);
+
+    set_amount(1);
+}
+
+string get_desc()
+{
+    return "Nguyên liệu cần thiết của rèn đúc, điêu khắc, may mặc, cơ quan";
 }
